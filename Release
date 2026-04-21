@@ -1,0 +1,17 @@
+Origin: Pancake's Repo
+Label: Pancake
+Suite: stable
+Version: 1.0
+Codename: pancake
+Architectures: iphoneos-arm
+Components: main
+Description: This Is Just An Repo
+cat <<EOF > Release
+Origin: Pancake's Repo
+Label: Pancake
+Suite: stable
+Version: 1.0
+Codename: pancake
+Architectures: iphoneos-arm
+Components: main
+Description: This Is Just A Repo
