@@ -943,6 +943,39 @@ Author: BishopFox
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.bfdecrypt
 Name: bfdecrypt
 
+Package: com.level3tjg.spotifyloginfix
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: level3tjg
+Installed-Size: 264
+Depends: mobilesubstrate
+Filename: ./debs/com.level3tjg.spotifyloginfix_0.0.1_iphoneos-arm.deb
+Size: 7162
+MD5sum: d8aaaa58571cef62b315840c0de13c1a
+SHA1: 5262f69356ec5baa6b5e162ed929090ba09480fa
+SHA256: a8949dcf3157cd7290e49a4dc2249bbe2b4f9b8c1b88b69fb3d72724186686d8
+Section: Tweaks
+Description: Fix Spotify login errors on old versions
+Author: level3tjg
+Name: Spotify Login Fix
+
+Package: com.level3tjg.twitchloginfix
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: level3tjg
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.level3tjg.twitchloginfix_0.0.3_iphoneos-arm64.deb
+Size: 9360
+MD5sum: f6ac0acdc8e093c921cf47ff324eeef4
+SHA1: 5c7f256660deb0581d424d1393eb2d6523689d7d
+SHA256: 413a8677e9dcbb2290cad4a94aef461174b1980c97047af0c492d25b1f874f46
+Section: Tweaks
+Description: Allow logging in on older Twitch app versions
+Author: level3tjg
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.twitchloginfix
+Name: TwitchLoginFix
+
 Package: com.matchstic.xenhtml
 Version: 2.0.2~release
 Architecture: iphoneos-arm
@@ -1069,6 +1102,74 @@ Author: hotsjf
 Depiction: https://www.iphonecake.com/mobileapp/appcake6/
 Icon: file:///Applications/AppCake.app/icon57x57.png
 Name: AppCake
+
+Package: ldid
+Version: 2.1.5-procursus7
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 236
+Depends: libiosexec1 (>= 1.2.2), libssl3, libplist3 (>= 2.2.0)
+Filename: ./debs/ldid_2.1.5-procursus7_iphoneos-arm.deb
+Size: 72498
+MD5sum: c2d7d27b154df53a2ce34ed47c378565
+SHA1: 7bd1a7c6ab79f9df931e8768d7199d563b3f9618
+SHA256: 0ff838697e2916333a48676346aaa5563c95bac809db807ec416cb7393c7761f
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+
+Package: me.apptapp.installer
+Version: 5.0.3-2
+Architecture: iphoneos-arm
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 11.0)
+Filename: ./debs/Installer_503.deb
+Size: 24127482
+MD5sum: bd30e3633b97aedeea67f46a07ce403a
+SHA1: d6b28c5ecb85adf9d9f7000455374f9d2acf3ce0
+SHA256: bd6e08bed23bc9b7fdc3974e1b38a294da363104a66acc9faa0a5f516c61d6e8
+Section: Packaging
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+Sileodepiction: https://apptapp.me/repo/installer.json
+
+Package: org.coolstar.sileo
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/org.coolstar.sileo_2.5_iphoneos-arm.deb
+Size: 2891620
+MD5sum: dc81bf79416b4bc8812ca8041f2f8dc0
+SHA1: a0d675cdb363c1c30788ec6760e2ed4e1a7eb36e
+SHA256: afbbd9a6e598dfa3b8c8d199f0cc6286be9e34dd5a2cb4766339d4fe3159cd87
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: plutil
+Version: 0.2.2-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 164
+Conflicts: com.ericasadun.utilities, com.bingner.plutil
+Provides: com.bingner.plutil (=0.2.2-1)
+Filename: ./debs/plutil_0.2.2-1_iphoneos-arm.deb
+Size: 29920
+MD5sum: 7255363331680cab4ddd93d340a0b574
+SHA1: dec2d23629b63a88d611d9a7d9ba41531e6e0f5f
+SHA256: 8206aa5221f38acdcfd4b78c06e5cde1aee682d9fcba8262c534391115a27077
+Section: System
+Description: Utility for creating and editing Apple property list files.
+Tag: role::hacker
+Author: Samuel Bingner
 
 Package: re.frida.server
 Version: 17.9.1
@@ -1478,4 +1579,46 @@ Author: Docmorelli <apps@hackulo.us>
 Depiction: http://hackulo.us/depict/crackulous/
 Name: Crackulous
 Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: wiki.qaq.qqhdloginfix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 295
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: ./debs/qqhdloginfix_1.0.deb
+Size: 21402
+MD5sum: 2bc2830431868c9c1d081170bae8f346
+SHA1: cbe3a885817b6f94005e74a0561f818c827c9f69
+SHA256: f34101198c1618125ba0cffb58b26a5580abf4d4ee66942409122a41cb8a0254
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqhdloginfixDp
+Description: Fix a crash when QQMusic trying to login
+Tag: purpose::extension, compatible::ios13
+Author: Lakr Aream <master@233owo.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqhdloginfixDp
+Dev: lakraream
+Name: QQMusicHDLoginFix
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: xyz.willy.zebra
+Version: 1.1.36
+Architecture: iphoneos-arm
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 15032
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debs/xyz.willy.zebra_1.1.36_iphoneos-arm.deb
+Size: 8451692
+MD5sum: f28880aa6be9a0556000cc7f58c5c3ad
+SHA1: 06e3fcec78dba4e3450a0dac0c27bc0af75bd8a7
+SHA256: e724e4e45807880b9a4122100e89c4ea8326ce56dd3223abbbb01757779d5f5f
+Section: Packaging
+Description: A Useful Package Manager
+Tag: compatible::9.0-16.6
+Author: Zebra Team <team@getzbra.com>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Name: Zebra
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
