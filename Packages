@@ -75,6 +75,34 @@ Tag: purpose::console
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: ldid for Apps Manager
 
+Package: com.KJCracks.Clutch
+Version: 2.0.4-47-gd104f30a9cc5
+Architecture: iphoneos-arm
+Maintainer: Viktor Oreshkin (stek29) <cy@stek29.rocks>
+Filename: ./debs/com.kjcracks.clutch-2.0.4-47-gd104f30a9cc5.deb
+Size: 148124
+MD5sum: 4d1d3ac97691c8b21bb51567b6f86eed
+SHA1: 77c2b6e24507d708fe074f63c6b90b529ffee842
+SHA256: e1234d3fcf21957a293b97aec4e6aeb426e11cdd13f661cb2e696e0eaf863164
+Section: Utilities
+Description: Fast cracking utility for iPhone, iPod and iPad
+Author: Kim Jong Cracks
+Name: Clutch
+
+Package: com.KJCracks.ClutchDev
+Version: 1.4-3
+Architecture: iphoneos-arm
+Maintainer: ttwj
+Depends: zip
+Filename: ./debs/ClutchDev.deb
+Size: 180336
+MD5sum: 0cf85568e141d911d8e876ba4dc55a1b
+SHA1: 9850e6bc99f76bac3d68e1ebe67e7ea149094565
+SHA256: 5264190b13cbe1718e1daf2ad371a19e2c9bf40ef75b36714dba8717d1b35024
+Section: Utilities
+Description: Fast cracking utility for iPhone, iPod and iPad
+Name: Clutch (Dev)
+
 Package: com.iphonecake.appcake2.ios6
 Version: 4.59
 Architecture: iphoneos-arm
@@ -107,6 +135,24 @@ Section: Tweaks
 Description: AppCake Installer
 Author: SarahH12099
 Name: AppCake 7 Installer
+
+Package: com.ivintagelover.7venlock
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>=10.0), com.synnyg.springsounds
+Filename: ./debs/com.ivintagelover.7venlock.deb
+Size: 93624
+MD5sum: a26308851d577fbdcfaa5ab5cb0c84d9
+SHA1: 656ddce47254f004cad99321bfc6476251d5ced7
+SHA256: 307eccd628bc2ea843ee8b164c324b751911c8836d68def73c50bddebf04dccc
+Section: Tweaks
+Description: iOS 7 Lock Screen sound effect for modern devices!
+Depiction: https://ivintagelover.github.io/depiction/web/com.ivintagelover.7venlock.html
+Icon: https://ivintagelover.github.io/assets/com.ivintagelover.7venlock/icon.png
+Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.7venlock.json
+Name: 7venLock
+Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.7venlock.json
+Tags: compatible_min::ios10.0, compatible_max::ios15.8.4
 
 Package: com.ivintagelover.locktime26
 Version: 1.0
@@ -145,6 +191,25 @@ Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelo
 Name: LockTimeX
 Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.locktimex.json
 Tags: compatible_min::ios4.0, compatible_max::ios15.8.7
+
+Package: com.ivintagelover.solidglass
+Version: 2.2.1
+Architecture: iphoneos-arm
+Depends: firmware (>=1.0)
+Filename: ./debs/com.ivintagelover.solidglass.deb
+Size: 24970520
+MD5sum: 33f8a10348aed6394bd4c3e3903a14b2
+SHA1: 618ab740a320422825652a3a6455f429ea749b3e
+SHA256: 7855e8ab15c1a799bad649510d2e608525d0da2886c4ac26e4dfecdf92ebe652
+Section: Themes
+Homepage: https://shuga.co/
+Description: iOS 26 icons for older devices.
+Depiction: https://ivintagelover.github.io/depiction/web/com.ivintagelover.solidglass.html
+Icon: https://ivintagelover.github.io/assets/com.ivintagelover.solidglass/icon.png
+Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.solidglass.json
+Name: Solid Glass 2
+Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.solidglass.json
+Tags: compatible_min::ios1.0, compatible_max::ios17.4
 
 Package: com.julioverne.adblock
 Version: 0.2~beta1
@@ -930,6 +995,41 @@ SHA256: 17a5eb9336cda8faaed37e9c9b12f913a83b41a17046075c428f8988c8342b11
 Description: enterkdfu is an easy way to get into kDFU mode.
  'enterkdfu' from any Terminal (root)
 Name: enterkdfu
+
+Package: com.spacesaver.duolingox
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: u/spacesaver2000-1
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.spacesaver.duolingox_1.0.0-1+debug_iphoneos-arm.deb
+Size: 6824
+MD5sum: d7d816e672d0123d6ca1e3d9036d2a0e
+SHA1: b1dffd58024fbc28a1367439fc099ad63611672f
+SHA256: 8534d2a56fc8df01a027c960b4654b63f6e3f27d339e42e9080382af72548336
+Section: Tweaks
+Description: Changes Duolingo's User-Agent enabling it to function on iOS 9!
+Author: u/spacesaver2000-1
+Name: DuolingoX
+
+Package: com.spark.snowboard
+Version: 1.2.71~Beta1
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 4212
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/1.2.71~Beta1.deb
+Size: 1415226
+MD5sum: 957151ee310764e81789d8dde7ae09eb
+SHA1: 9a9baced53e124b08857787596f56a9d6ab679a7
+SHA256: 6c6b239e4bc7cc984855b0b6933bf5e0196bf733a7de4f340f9029d3cec31f7e
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
 
 Package: com.sull.appcake5
 Version: 5.5.0.5
