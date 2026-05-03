@@ -75,6 +75,39 @@ Tag: purpose::console
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: ldid for Apps Manager
 
+Package: com.iphonecake.appcake2.ios6
+Version: 4.59
+Architecture: iphoneos-arm
+Maintainer: hotsjf <iphonecake@gmail.com>
+Pre-Depends: firmware (>= 6.0) | firware (<= 7.0)
+Filename: ./debs/com.iphonecake.appcake2.ios6_4.59_iphoneos-arm.deb
+Size: 4595808
+MD5sum: 252c83feff126e6696e5fd7dce87580c
+SHA1: 4ef64c8287a625091f305006273f61cdac3b6b17
+SHA256: 2f1ded9c9dd46b6b84af9953f0cc7edd833a619c7f2f56efd715dfbf94c6f086
+Section: Utilities
+Description: **All NEW AppCake 4.0! Clean UI with enhanced Settings, download cracked apps from the largest Cracked Store. Come with iTunes Sync, Metadata Removal, Update check, AirDrop Sharing and more. *** Require AppSync to be installed ***
+Author: hotsjf <iphonecake@gmail.com>
+Depiction: http://iphonecake.com/mobileapp/depiction/ios6.html
+Icon: file:///Applications/iPhoneCake.app/AppIcon57x57.png
+Name: AppCake for iOS6
+Website: http://iphonecake.com/forum/
+
+Package: com.iphonecake.appcakeinstaller
+Version: 7.1.3-5
+Architecture: iphoneos-arm
+Maintainer: SarahH12099
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<= 13.7), wget, net.angelxwind.appsyncunified (>= 5.1) | cydia.net.angelxwind.appsyncunified (>= 5.1), com.linusyang.appinst | com.linusyang.appinstappcake
+Filename: ./debs/com.iphonecake.appcakeinstaller_7.1.3-5.deb
+Size: 1024
+MD5sum: a997d4c0d80e9755fb72b2d1853a88e3
+SHA1: 0eaabcec37a74d928cd6a56c266a8a17abfe7553
+SHA256: 960ad5bd663c36c64a02ec54026ea4b2ad200c33e655284dacaf78d918b2d8e1
+Section: Tweaks
+Description: AppCake Installer
+Author: SarahH12099
+Name: AppCake 7 Installer
+
 Package: com.ivintagelover.locktime26
 Version: 1.0
 Architecture: iphoneos-arm
@@ -898,6 +931,45 @@ Description: enterkdfu is an easy way to get into kDFU mode.
  'enterkdfu' from any Terminal (root)
 Name: enterkdfu
 
+Package: com.sull.appcake5
+Version: 5.5.0.5
+Architecture: iphoneos-arm
+Maintainer: insanelyi <noreply@insanelyi.com>
+Pre-Depends: firmware (>= 7.0)
+Depends: mobilesubstrate
+Conflicts: com.sull.appcake5beta, com.iphonecake.AppCake2
+Filename: ./debs/com.sull.appcake5_5.5.0.5_iphoneos-arm.deb
+Size: 8523600
+MD5sum: 2f9e9b33a9ee1794079a1efbc93874fb
+SHA1: 7d043ee8e240a4fa7108245a28b7c5e96eeda197
+SHA256: 9ac3a3c01f9fdbf957d57466aba6121897c6970de6c3a0a991cc3c6909fc142b
+Section: iUtilities
+Description: The new AppCake 5.5.0.5! Introducing Direct Download/Install! Require AppSync to be installed ***
+Author: Mickael liang
+Depiction: http://repo.insanelyi.com/depiction.php?package=appcake5
+Icon: file:///Applications/AppCake.app/icon57x57.png
+Name: AppCake
+Sponsor: insanelyi <http://insanelyi.com>
+Website: http://insanelyi.com
+
+Package: cydia.com.iphonecake.AppCake6
+Version: 6.1.3
+Architecture: iphoneos-arm
+Maintainer: AppCake
+Pre-Depends: firmware (>= 9.0)
+Depends: appsync
+Filename: ./debs/cydia.com.iphonecake.AppCake6_6.1.3.deb
+Size: 20773948
+MD5sum: b06e422601b3fbc7b7df564439351225
+SHA1: 10dd262ecf70f088a6155030811d6dcbcc2919d2
+SHA256: 2f763cd4987440d538ac72c8e3b3bb4f8888cb6ae7017f9f9ea40f56df3fe322
+Section: Utilities
+Description: The new AppCake 6! For iOS 11 & 12 Jailbreak.
+Author: hotsjf
+Depiction: https://www.iphonecake.com/mobileapp/appcake6/
+Icon: file:///Applications/AppCake.app/icon57x57.png
+Name: AppCake
+
 Package: re.frida.server
 Version: 17.9.1
 Architecture: iphoneos-arm
@@ -1248,4 +1320,62 @@ Description: Returns the classic YouTube app to iOS 6.
 Author: InvoxiPlayGames
 Depiction: http://cydia.invoxiplaygames.uk/dp/youtube.php
 Name: Classic YouTube App
+
+Package: us.hackulo.appsync31
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <appsync@hackulo.us>
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Depends: com.hackulo.us.sourcegui
+Filename: ./debs/appsync31-1.0.1.deb
+Size: 296542
+MD5sum: 534080636c26e40d3efbdf195f3bfdfb
+SHA1: 2e3be3668f26c9d4ac7b796042aa7b05184fe4ae
+SHA256: c0975018be2f1fe73eaeadce9a3c4ead17ab01b08eb41bd11a82b2f83c60fb70
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync31/
+Name: AppSync for OS 3.1
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync50
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Pre-Depends: firmware (>= 5.0)
+Depends: com.hackulo.us.sourcegui
+Provides: appsync
+Filename: ./debs/appsync50-1.0.2.deb
+Size: 239684
+MD5sum: f25b166b060ee7c4a855519cf059c511
+SHA1: 7e982d9e7b78def67d1d87616d8c3ee3398acaf3
+SHA256: 42ef25b4cf99623486cd47587f462b28570da7303de57d30072ebeab9764d05a
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Dissident <apps@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync50/
+Name: AppSync for OS 5
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.crackulous
+Version: 1.0.0.5
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Pre-Depends: firmware (>= 4.0)
+Depends: zip, com.hackulo.us.sourcegui
+Filename: ./debs/Crackulous-1.0.0.5.deb
+Size: 1189192
+MD5sum: 4acea10c97360993eec91620fd9ff8fc
+SHA1: 137666551011f72b4888f60671e8f463065146cd
+SHA256: bf48b5c6bc2ca709c1ad7fdb3bb0c57568d6508d882184e9c100e986c7bfc898
+Section: Hackulo.us
+Priority: standard
+Description: Crackulous is an easy-to-use cracking utility.
+Author: Docmorelli <apps@hackulo.us>
+Depiction: http://hackulo.us/depict/crackulous/
+Name: Crackulous
+Sponsor: Hackulo.us <http://hackulo.us>
 
