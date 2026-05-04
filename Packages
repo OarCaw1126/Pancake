@@ -75,6 +75,24 @@ Tag: purpose::console
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: ldid for Apps Manager
 
+Package: bag.xml.tuberepair
+Version: 1.1-Beta-2
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/bag.xml.tuberepair_1.1-Beta-2_iphoneos-arm.deb
+Size: 101918
+MD5sum: 0a0b6a1a538c9aa369ef905fc6d1eb68
+SHA1: 2ccb6f9877e86a38c59b55c97f529beb37ebe866
+SHA256: a0728c4753df3625d847ba79c5128123020698f5c22f1890a2eb1b9da659727e
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
+
 Package: cokepokes.crash-reporter
 Version: 1.16.0-7
 Architecture: iphoneos-arm
@@ -12981,6 +12999,22 @@ Description: Athena Project | Compiled for ARM64.
 Tag: purpose::console
 Name: XZ Utils
 
+Package: com.nablac0d3.sslkillswitch2
+Version: 0.14-3+debug
+Architecture: iphoneos-arm
+Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
+Installed-Size: 84
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.nablac0d3.sslkillswitch2_0.14.deb
+Size: 7392
+MD5sum: 41ebada26cdb598d0072594208d14921
+SHA1: 2da0a7d75aef0444aabb0c5f5e9a30610edcc1bc
+SHA256: 4cfc2e49e7cda20365ce7d222eacc43202bcd3dcd9107f45869c1b589f7237f8
+Section: Tweaks
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Author: Alban Diquet <nabla.c0d3@gmail.com>
+Name: SSL Kill Switch 2
+
 Package: com.ps.yougroupsettings
 Version: 1.0.10
 Architecture: iphoneos-arm
@@ -12999,6 +13033,24 @@ Author: PoomSmart <unicorn03.glimmer@icloud.com>
 Depiction: https://chariz.com/get/yougroupsettings
 Icon: https://img.chariz.cloud/icon/yougroupsettings/icon@3x.png
 Name: YouGroupSettings
+
+Package: com.skyglow.itunesstorex
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: ./debs/com.skyglow.itunesstorex_2.5_iphoneos-arm.deb
+Size: 106508
+MD5sum: fe7579e05ac248a38df0a065fc92f6dc
+SHA1: 06ab5ef2a70520f97669afec34f16a2b3e765ba1
+SHA256: c8ff8a6d141ed09f28a9ae8c8bdb793dfaddd5cc0b221065f5fe02d663038c1c
+Section: Tweaks
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Author: Requis, Bag.xml
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Name: iTunesStoreX
 
 Package: com.sn0wcooder.enterkdfu
 Version: 1.0
@@ -13194,6 +13246,104 @@ Depiction: https://apptapp.me/repo/installer.html
 Icon: https://synnygr.dev/AppTapp/installer_icon.png
 Name: Installer
 Sileodepiction: https://apptapp.me/repo/installer.json
+
+Package: net.nekokawa.antennacustomizer
+Version: 0.3.1-3+debug
+Architecture: iphoneos-arm
+Maintainer: nekokawa
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader
+Conflicts: com.mirrordev.fakecarrier, com.phoenix.bars, com.nspwn.fakeoperator
+Filename: ./debs/net.nekokawa.antennacustomizer_0.3.1-3+debug_iphoneos-arm.deb
+Size: 19406
+MD5sum: 0d3d4fe46fa0f1a1ce83d5624b84cbec
+SHA1: 6c79ca6798c5fca5970638c1b24412cd8d7215d5
+SHA256: 443535eb867d0cdfee0cd59527251aba07e521d4003e8406db5081498ca6022a
+Section: Tweaks
+Description: Fully Customizable Antenna Bar Tweak for iOS 5/6!
+ Can be installed even on iOS 7 or later, but I cannot guarantee it will work perfectly. Please use it at your own risk.
+Author: nekokawa
+Name: AntennaCustomizer
+
+Package: net.nekokawa.appstorefix
+Version: 0.3.5-4+debug
+Architecture: iphoneos-arm
+Maintainer: nekokawa
+Installed-Size: 264
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 6.1.6), preferenceloader
+Filename: ./debs/net.nekokawa.appstorefix_0.3.5-4+debug_iphoneos-arm.deb
+Size: 22434
+MD5sum: 435aade5d4f33a26ae32ef1af8310090
+SHA1: 1e602811b5f60d8211ae0bc448958b672c89b7bd
+SHA256: d74c697d0f9bd6f7a1e0f5b4c147e83d340f2d07b2c5ce797ae875cbe6c8beaf
+Section: Tweaks
+Description: Fix AppStore SSL connection(only iOS 6!)
+Author: nekokawa
+Name: StoreSSLFix
+
+Package: net.nekokawa.custombagloader
+Version: 0.0.1-7+debug
+Architecture: iphoneos-arm
+Maintainer: nekokawa
+Installed-Size: 252
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/net.nekokawa.custombagloader_0.0.1-7+debug_iphoneos-arm.deb
+Size: 8810
+MD5sum: 635cef3d79a529ce2b13f4722c7de016
+SHA1: bc54e0a0dbd136722f035fcff3417269e984bc31
+SHA256: 40f6087a878e8b1511d9ef654d3574c505b51ded5dbd1ebce1393b52702dfad0
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: nekokawa
+Name: CustomBagLoader
+
+Package: net.nekokawa.re5tore
+Version: 0.0.10-8+debug
+Architecture: iphoneos-arm
+Maintainer: nekokawa
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 6.1.6), preferenceloader
+Filename: ./debs/net.nekokawa.re5tore_0.0.10-8+debug_iphoneos-arm.deb
+Size: 25210
+MD5sum: 40ab3f338750f2879af954911e67ee21
+SHA1: cdf972b84a1ee85d1e709c98ce6e4b1c87db5aec
+SHA256: 8b04e27d1560ce18cd38f3e7bd3f2de06bee3223648ef30797f292833177a750
+Section: Tweaks
+Description: Restores the hidden iOS 5 store on iOS 6!
+Author: nekokawa
+Name: Re5tore
+
+Package: net.nekokawa.sendanywherex
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: nekokawa
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/net.nekokawa.sendanywherex_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2624
+MD5sum: 1c310761a9d42f4daaa54821249eb020
+SHA1: 8d958e9c93f55186f53a679f414e400c586585c8
+SHA256: 9f59e85cfa87f6e7ea0ffc825602211a8d5690f5befcf7546f60968d6c575dab
+Section: Tweaks
+Description: Killing SendAnywhere update alerts
+Author: nekokawa
+Name: SendAnywhereX
+
+Package: net.nekokawa.storeloginfix
+Version: 0.0.4-1+debug
+Architecture: iphoneos-arm
+Maintainer: nekokawa
+Installed-Size: 124
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<= 5.1.1)
+Filename: ./debs/net.nekokawa.storeloginfix_0.0.4-1+debug_iphoneos-arm.deb
+Size: 8762
+MD5sum: 61b5d30f7efe2ef5f217723ee3cfdcc9
+SHA1: ba32d0f4cb3e3cf9be15a5aec97be34f15ad50aa
+SHA256: f71f89f7e372ff20d06b15d0fac5ade1fcfd55d1eac6c228d559408cc9d830d3
+Section: Tweaks
+Description: Fix login the AppStore for iOS 5 and older
+Author: nekokawa
+Name: StoreLoginFix
 
 Package: org.coolstar.libhooker
 Version: 1.6.9-1
