@@ -12803,6 +12803,23 @@ Author: julioverne
 Depiction: https://julioverne.github.io/description.html?id=com.julioverne.ytnoautoplay
 Name: YTNoAutoPlay
 
+Package: com.julioverne.zaddyverifyroll
+Version: 0.0~beta2
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./debs/com.julioverne.zaddyverifyroll_0.0~beta2_iphoneos-arm.deb
+Size: 7152
+MD5sum: 72d5d1c65e632831d30bdb65b25a86d7
+SHA1: bbb49be8d8272a094034a35c612f8d9ac5ca2f7c
+SHA256: ccb4c77887d8618feb86bdce960e5c3dc6c23c31717cee86cefe28b1add2b025
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: Verify Account Photo via Camera Roll
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.zaddyverifyroll
+Name: ZaddyVerifyRoll
+
 Package: com.laughingquoll.Siliqua
 Version: 1.0-2
 Architecture: iphoneos-arm
