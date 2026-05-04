@@ -12905,6 +12905,62 @@ Icon: file:///Library/PreferenceBundles/XenHTMLPrefs.bundle/IconPackageManager.p
 Name: Xen HTML
 Sileodepiction: https://xenpublic.incendo.ws/sileo/com.matchstic.xenhtml.json
 
+Package: com.mc.libmaxminddb
+Version: 1.3.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./debs/com.mc.libmaxminddb_1.3.2-1_iphoneos-arm.deb
+Size: 25316
+MD5sum: fe168909d73fbf3f020dfdbefe343cd3
+SHA1: 12d7ebf7094b15086cd468a0283988618ef395ee
+SHA256: b0b39b11651821a75c1c41eee7fb7db338c3bda4f2a31bd5976e03eabc5bb946
+Section: Development
+Priority: optional
+Homepage: https://github.com/maxmind/libmaxminddb
+Description: Athena Project | Compiled for ARM64.
+ C library for the MaxMind DB file format
+Tag: purpose::library
+Name: libmaxminddb
+
+Package: com.mc.libmetalink
+Version: 0.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libxml2, com.mc.libexpat
+Filename: ./debs/com.mc.libmetalink_0.1.3-1_iphoneos-arm.deb
+Size: 23560
+MD5sum: c5498939ceef054daa3287456b742888
+SHA1: 8a66f93d11d77d499f0ceb7c6b787e0eb621469b
+SHA256: 73b97ebff88052c26a3c7cfe2b6c5e7b8691602c7af02919f79133af04254461
+Section: Development
+Priority: optional
+Homepage: https://launchpad.net/libmetalink/
+Description: Athena Project | Compiled for ARM64.
+ C library to parse Metalink XML files
+Tag: purpose::library
+Name: libmetalink
+
+Package: com.mc.libmpc
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.mpfr, com.mc.gmp
+Filename: ./debs/com.mc.libmpc_1.1.0-1_iphoneos-arm.deb
+Size: 34048
+MD5sum: dbb9795adab0132021451680d94a6449
+SHA1: 6d9ec75b0a3d12a3ddb79d9c7ff8b917f640a7b0
+SHA256: f126418a1fa928a2e85f874cbd6d1a4efd86f6fc85a4b468c38a98dfab75123d
+Section: Development
+Priority: optional
+Homepage: http://www.multiprecision.org/mpc/
+Description: Athena Project | Compiled for ARM64.
+ C library for the arithmetic of high precision complex numbers
+Tag: purpose::library
+Name: libmpc
+
 Package: com.mc.xz
 Version: 5.2.4-9
 Architecture: iphoneos-arm
@@ -13139,6 +13195,100 @@ Icon: https://synnygr.dev/AppTapp/installer_icon.png
 Name: Installer
 Sileodepiction: https://apptapp.me/repo/installer.json
 
+Package: org.coolstar.libhooker
+Version: 1.6.9-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode, org.coolstar.libhooker-oldabi | org.coolstar.libhooker-newabi
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: ./debs/org.coolstar.libhooker_1.6.9-1_iphoneos-arm.deb
+Size: 16184
+MD5sum: 9b51ba85fe47ec384afe9a86252035f2
+SHA1: 50b3a31d6a8b6fde345583ef0fc57ce44e62f668
+SHA256: cf0f5aa812b999fd00e47f8e74aa99489d5c9a848a1a434b8cb675e72f6838f1
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker (common)
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
+Package: org.coolstar.libhooker
+Version: 1.6.9b2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: ./debs/org.coolstar.libhooker_1.6.9b2_iphoneos-arm.deb
+Size: 55904
+MD5sum: d4cb163a2f5376a3182803fc16ec8975
+SHA1: c3120d01adb7033d0d3835ea4847ee9932819557
+SHA256: fa713628f0109b10e1dc33c935e8ea915b335c346764cc4cfa62f334eeea3f98
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
+Package: org.coolstar.libhooker-configurator
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 12.0)
+Filename: ./debs/org.coolstar.libhooker-configurator_1.4_iphoneos-arm.deb
+Size: 269036
+MD5sum: 3418949fc82a1afdb93935c8e7900855
+SHA1: 94bdfa21f9736add524a891fcd544d2c29e81e65
+SHA256: 00952eb154b13415704cc8fd48610920a66ef2fb45bf0f079381961904249a2b
+Section: Packaging
+Priority: required
+Description: Configuration Utility for libhooker
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker configurator
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker-configurator.json
+
+Package: org.coolstar.libhooker-newabi
+Version: 1.6.8
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 14.0), cy+cpu.arm64, org.coolstar.safemode, org.coolstar.libhooker (>= 1.6.9-1)
+Replaces: org.coolstar.libhooker (<= 1.6.9)
+Filename: ./debs/org.coolstar.libhooker-newabi_1.6.8_iphoneos-arm.deb
+Size: 45980
+MD5sum: 3457d9e0a9040bfa20be89737f20cafc
+SHA1: f9a8460f9f914039dbb2768c83129131f25a38ca
+SHA256: fe9b67a8010f23ab08acb595fa3604098597a0c7c9eda51ae74b7b863c141717
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker (New ABI)
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
+Package: org.coolstar.libhooker-oldabi
+Version: 1.6.9
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), firmware (<< 14.0), cy+cpu.arm64, org.coolstar.safemode, org.coolstar.libhooker (>= 1.6.9-1)
+Replaces: org.coolstar.libhooker (<= 1.6.9)
+Filename: ./debs/org.coolstar.libhooker-oldabi_1.6.9_iphoneos-arm.deb
+Size: 42228
+MD5sum: 42e609faf440d2dcf165beca103cd19d
+SHA1: b4fc51901539d28b41bcc59194532d273024c459
+SHA256: 19cc2f3c0f219435d5de1fb6aa7fb25748e0b6a7ef4e83cc2e3a98ce45067ace
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker (Old ABI)
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
 Package: org.coolstar.sileo
 Version: 2.5
 Architecture: iphoneos-arm
@@ -13172,6 +13322,28 @@ Section: System
 Description: Utility for creating and editing Apple property list files.
 Tag: role::hacker
 Author: Samuel Bingner
+
+Package: preferenceloader-armv6
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <dustin@howett.net>
+Installed-Size: 28
+Depends: mobilesubstrate
+Conflicts: preferenceloader, cy+cpu.arm64, cy+cpu.armv7
+Provides: preferenceloader
+Filename: ./debs/preferenceloader-2.1.1-1.deb
+Size: 9774
+MD5sum: 47b7e1772f01d975822a08e582a8272a
+SHA1: 3da32504a996b0ef3eadd5375c326be7a530c16f
+SHA256: 43f59ef3197caeaeb2c6c192fd211e4a2afa91e087f9354b711585a50d60cfec
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <dustin@howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader (armv6)
 
 Package: re.frida.server
 Version: 17.9.1
