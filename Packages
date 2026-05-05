@@ -75,6 +75,26 @@ Tag: purpose::console
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: ldid for Apps Manager
 
+Package: applist
+Version: 1.5.16
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.16_iphoneos-arm.deb
+Size: 105098
+MD5sum: af1bdc77dd1805c249d416fa96957841
+SHA1: 843d2b873ad29a848c701af51f2e8a524770bc3a
+SHA256: b20901679ecd9a607636dd69d1c42fe074f6a3e8a5c21c20ecef893f1a9a4a7e
+Section: System
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Dev: rpetrich
+Name: AppList
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+
 Package: bag.xml.tuberepair
 Version: 1.1-Beta-2
 Architecture: iphoneos-arm
@@ -92,6 +112,28 @@ Author: bag.xml, Requis
 Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
 Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
 Name: TubeRepair [BETA]
+
+Package: br.me.adriano.emojitype
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 246
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Filename: ./debs/br.me.adriano.emojitype_1.1.0-1_iphoneos-arm.deb
+Size: 21600
+MD5sum: b5c7c3cee06e9bf0288eced5364cde1e
+SHA1: 38843483350d37793033f76784b28f1a0ef02dc6
+SHA256: ddb53ee868c2b48bd1a20bf24a55224cefcb4a3e82fc54cc7962504c719cbf7c
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=emojitypeDp
+Description: Replaces typed keys with respective emoji
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Adriano Junior <jr.adrianogm@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=emojitypeDp
+Dev: adriano
+Name: EmojiType
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: cokepokes.crash-reporter
 Version: 1.16.0-7
@@ -10265,6 +10307,116 @@ Author: Wraith
 Depiction: http://cydia.zodttd.com/repo/cydia/debs20/tesu/depiction/locomulti/index.php
 Name: LocoRoco Game Ringtone Pack
 
+Package: com.bd452.bypass
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 80
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), libactivator, com.bd452.libpass
+Filename: ./debs/com.bd452.bypass_2.0.0-1_iphoneos-arm.deb
+Size: 17066
+MD5sum: 30d7db1e08b14b7151d90ad613649d3b
+SHA1: ed33d46b39daa85c61a304e04e2551624419efba
+SHA256: 3a15f15e2490aaabcc7fb51b8a35dbf24c43fb98d7a321d11dd386467d2bf87a
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bypassDp
+Description: Bypass your passcode with Activator
+Tag: purpose::extension
+Author: bd452 <bryce.dougherty@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bypassDp
+Dev: bd452
+Icon: file:///Library/Activator/Listeners/com.bd452.bypass/Icon-small@2x.png
+Name: ByPass
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.bd452.libpass
+Version: 2.2.0-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 132
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader
+Filename: ./debs/com.bd452.libpass_2.2.0-2_iphoneos-arm.deb
+Size: 19212
+MD5sum: 9567b0725c060a024b6da2c6001e1cd3
+SHA1: 8019fe3622704162e7b2f82cb287bb1203e4c090
+SHA256: 0388101c1126ba09c260c4ccfaa409af9f685a2f0342986a15feab382b19fafb
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpasswordDp
+Description: Library for the iOS Passcode
+Tag: purpose::library, role:developer
+Author: B Dougherty & E Frederickson <bryce.dougherty@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpasswordDp
+Dev: bd452
+Icon: file:///Library/PreferenceBundles/libPassPrefs.bundle/libPassPrefs@2x.png
+Name: libPassword
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.cabralcole.invertrespring
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 128
+Depends: firmware (>= 7.0), mobilesubstrate
+Filename: ./debs/com.cabralcole.invertrespring_1.0-2_iphoneos-arm.deb
+Size: 3214
+MD5sum: ee7d199a6f19b1f4bb8b5dded09256d8
+SHA1: bc0503c13ada9e4681cba092dbb3aee81e3eda70
+SHA256: 682a9ead7d5d376990fd94597201e71e03e5f12e78349bcc9dfbc239f0980e2e
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=invertrespringDp
+Description: Invert respring and boot logo.
+Tag: purpose::extension, compatible::ios9
+Author: cole cabral @ca13ra1 <cabralcole@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=invertrespringDp
+Dev: ca13ra1
+Name: InvertRespring
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.chikuwa.emojifavoritesenabler
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 94
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Filename: ./debs/com.chikuwa.emojifavoritesenabler_0.0.1-2_iphoneos-arm.deb
+Size: 2646
+MD5sum: 16f4c47ce19abb6c317620a6b00eb2ff
+SHA1: 01ed30ebb5635045b66685a23216a0ce3189820c
+SHA256: 183a5c8cb57001d6cb5f71d453469519eebfd707df94366a6f8171d9749cca89
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=emojifavoritesenablerDp
+Description: expanded emoji set in Twitter app
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Author: Chikuwa <chikuwajb@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=emojifavoritesenablerDp
+Dev: chikuwajb
+Name: EmojiFavoritesEnabler
+
+Package: com.chpwn.weeloader
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 99
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate
+Filename: ./debs/com.chpwn.weeloader_1.4-4_iphoneos-arm.deb
+Size: 19448
+MD5sum: d7baa808822427276fdc05f51f1bbdaf
+SHA1: 207c76f8d4447723b6e0d9eeae7aa7f04828cc19
+SHA256: 699b2fbb2d40812197d06ffba7cdf27c96cafc6fea1b803b576e3bd509cf476d
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Description: Weeeeeeeeeee! Load Wee apps safely.
+Tag: role::developer, purpose::extension, ios7support::1, ios8support::1
+Author: joedj <weeloader@joedj.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Dev: joejordan
+Name: WeeLoader
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.cokepokes.CPRevealLoader
 Version: 0.1-1
 Architecture: iphoneos-arm
@@ -10697,6 +10849,29 @@ Author: CokePokes
 Depiction: https://gist.github.com/CokePokes/9ad9eb5578c94418f437b39475f75e2f/b6ddb1801b4b72036f6cd492d51394a225bac89e
 Name: Core WatchUtils
 
+Package: com.conradkramer.uafaker
+Version: 1.5-1
+Architecture: iphoneos-arm
+Maintainer: Bigboss <bigboss@thebigboss.org>
+Installed-Size: 286
+Depends: preferenceloader, mobilesubstrate, applist (>= 1.1)
+Conflicts: com.conradkramer.sbsuafaker, sbsuafaker
+Filename: ./debs/com.conradkramer.uafaker_1.5-1_iphoneos-arm.deb
+Size: 72406
+MD5sum: 05dd61913901000e05e4c70ca7f3f888
+SHA1: 398fd9b78725e4672075d26dae063c73f1845619
+SHA256: 1673be5ce0fe4ec545cd1569248a2d373c9647c329af558bd4b346f78b7c512d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=useragentfakerData
+Description: Fakes the User Agent of the device.
+Tag: purpose::extension
+Author: Conrad Kramer <support@kramerapps.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=useragentfakerData
+Dev: ckramer
+Icon: file:///Library/PreferenceBundles/UAFakerSettings.bundle/UAFaker@2x.png
+Name: User Agent Faker
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.coolbooter.cbuntether
 Version: 1.0-release
 Architecture: iphoneos-arm
@@ -10713,6 +10888,21 @@ Description: "Untethers" an existing CoolBooter install
  To disable the untether, hold volume down during boot.
 Author: CoolBooter <coolbooterios@gmail.com>
 Name: CoolBooter Untetherer
+
+Package: com.coolbooter.coolbooter
+Version: 1.6-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, firmware (>= 7.0)
+Filename: ./debs/com.coolbooter.coolbooter_1.6-release_iphoneos-arm.deb
+Size: 33805256
+MD5sum: a9a390a10541ccaf617a901118554ec9
+SHA1: c713f8ac4e1ffd266f6d8bdd3c41f7bea8a22b3f
+SHA256: a1cc1907e4c0a62325ddf0654796dcaa3623ea57db0c9456125c9e0744caa1c3
+Section: System
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter
 
 Package: com.coolbooter.coolbooter
 Version: 1.6-release
@@ -10744,6 +10934,53 @@ Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 
 Author: CoolBooter <coolbooterios@gmail.com>
 Name: CoolBooter CLI
 
+Package: com.cpdigitaldarkroom.cleo
+Version: 1.0.7-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 241
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), org.thebigboss.libcolorpicker
+Conflicts: com.cpdigitaldarkroom.cream
+Filename: ./debs/com.cpdigitaldarkroom.cleo_1.0.7-1_iphoneos-arm.deb
+Size: 51582
+MD5sum: 5020909d4b6b6e8ecddc5fe2d8d2d719
+SHA1: 84e0cb716aeb2f6f2efaefbf1205be9ca06dc304
+SHA256: 62500b51e391b41055e2e878445521805bdbff6c0873312507617fd511fca3b9
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cleoDp
+Description: Stock Feeling Redesigned Control Center
+Tag: purpose::extension, compatible::ios8, compatible::ios9
+Author: CP Digital Darkroom & 4urum <tweaks@cpdigitaldarkroom.support>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cleoDp
+Dev: cpdigitaldarkroom
+Name: Cleo
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.cpdigitaldarkroom.hidemex
+Version: 1.4.8-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1997
+Depends: mobilesubstrate, firmware (>= 9.0), org.thebigboss.libcolorpicker, preferenceloader, applist
+Conflicts: com.cpdigitaldarkroom.hideme7-lite, com.cpdigitaldarkroom.hideme7, com.cpdigitaldarkroom.hideme8-lite, com.cpdigitaldarkroom.hideme8, com.joshuaseltzer.advancedsettings8, com.sull.hiddensettings8, me.devbug.hiddensettings7
+Filename: ./debs/com.cpdigitaldarkroom.hidemex_1.4.8-1_iphoneos-arm.deb
+Size: 405802
+MD5sum: 4c40ae00bdb0ae87166a6289cc8a3955
+SHA1: 9993ba52517145067aae722b3ad507fccdde50a0
+SHA256: b0ad84bc090c90ac4abb406428f14d3ac095b10979486900bd3ffd5f3ce511e2
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hidemexDp
+Description: The Ultimate iOS Customizing Experience
+Tag: purpose::extension, compatible::ios9
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hidemexDp
+Dev: cpdigitaldarkroom
+Icon: file:///Library/PreferenceBundles/HideMeX.bundle/images/HideMeX@2x.png
+Name: HideMeX (iOS 9)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.greeny.restats
 Version: 1.1-28
 Architecture: iphoneos-arm
@@ -10763,6 +11000,42 @@ Author: GreenyDev <greenydev@greenmail.net.au>
 Dev: greeny
 Icon: file:///Library/PreferenceBundles/RCSPrefs.bundle/RCSPrefs@2x.png
 Name: ReStats
+
+Package: com.hackulo.us.installous
+Version: 5.0.3-1
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Pre-Depends: firmware (>= 4.0)
+Depends: us.hackulo.resources, appsync, com.hackulo.us.sourcegui, com.chpwn.weeloader (>= 1.1) | firmware (<< 5.0)
+Filename: ./debs/com.hackulo.us.installous_5.0.3-1_iphoneos-arm.deb
+Size: 5326030
+MD5sum: 42e48c376dcedbefd0c5bc6876310e45
+SHA1: 14cc8f1ffb1e625bb57020f764f4e518b6d709f5
+SHA256: 4baf768abe97799850d5e5ffb53e9cd052ea5d413d7441f0cd57b4b1ae4dcf32
+Section: Hackulo.us
+Priority: standard
+Description: Installous is the perfect app to install your IPAs
+Author: docmorelli <apps@hackulo.us>
+Depiction: http://hackulo.us/depict/installous5/
+Name: Installous 5
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: com.hackulo.us.sourcegui
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <admin@hackulo.us
+Filename: ./debs/com.hackulo.us.sourcegui_1.2_iphoneos-arm.deb
+Size: 8512
+MD5sum: 4c4de2cfa27ab45eb12f411f6301020b
+SHA1: e66347237e0e0660b2723e54ee1fce92dd92d3a6
+SHA256: b700e462900e378d942535ac4fabcaa8132cf0cab9d2dc96e7b6e32ccd9a4b9a
+Section: Hackulo.us
+Priority: standard
+Description: Hackulo.us Source GUI adds the source icons
+Author: Genius Blog <admin@hackulo.us>
+Depiction: http://hackulo.us/depict/sourcegui
+Name: Source GUI
+Sponsor: Hackulo.us <http://hackulo.us>
 
 Package: com.iphonecake.appcake2.ios6
 Version: 4.59
@@ -10833,6 +11106,43 @@ Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelo
 Name: LockTime26
 Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.locktime26.json
 Tags: compatible_min::ios4.0, compatible_max::ios15.8.7
+
+Package: com.ivintagelover.locktime26
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>=4.0)
+Filename: ./debs/com.ivintagelover.locktime26_1.0_iphoneos-arm.deb
+Size: 6844276
+MD5sum: 8968c57463873768d8bc1a9e9c0abc49
+SHA1: 9dc94ca28da27ad91fdf1744c95999a79887fbca
+SHA256: 6d38c0f83c76ff52624143be405c39a6ffd27263081df3b1b3de99752842875a
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: iOS 26 Lock Screen clock for older iDevices. Apply using Xen HTML. Supports iPhone, iPad and iPod touch running iOS 9.0 and later.
+Depiction: https://ivintagelover.github.io/depiction/web/com.ivintagelover.locktime26.html
+Icon: https://ivintagelover.github.io/assets/com.ivintagelover.locktime26/icon.png
+Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.locktime26.json
+Name: LockTime26
+Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.locktime26.json
+Tags: compatible_min::ios4.0, compatible_max::ios15.8.7
+
+Package: com.ivintagelover.locktimex
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: firmware (>=4.0), com.matchstic.xenhtml
+Filename: ./debs/com.ivintagelover.locktimex_1.2_iphoneos-arm.deb
+Size: 5622172
+MD5sum: 1fbd0748739a671db330d9093fc28fdc
+SHA1: 8f0609dd2c418861324b788b1624d362fde2f7a8
+SHA256: 2961e516e0af505582742c7058a0af75ac76fd2f4de4ff82d573ad501f3d9c19
+Section: Tweaks
+Description: iOS 16 Lock Screen clock for older iDevices. Apply using Xen HTML.
+Depiction: https://ivintagelover.github.io/depiction/web/com.ivintagelover.locktimex.html
+Icon: https://ivintagelover.github.io/assets/com.ivintagelover.locktimex/icon.png
+Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.locktimex.json
+Name: LockTimeX
+Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.locktimex.json
+Tags: compatible_min::ios4.0, compatible_max::ios15.8.4
 
 Package: com.ivintagelover.locktimex
 Version: 1.2
@@ -13015,6 +13325,190 @@ Description: Blackbox tool to disable SSL certificate validation - including cer
 Author: Alban Diquet <nabla.c0d3@gmail.com>
 Name: SSL Kill Switch 2
 
+Package: com.opa334.libundirect
+Version: 1.1.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 238
+Filename: ./debs/com.opa334.libundirect_1.1.6_iphoneos-arm.deb
+Size: 12884
+MD5sum: 4e2684a578890c7367f7e8215fd9d70e
+SHA1: d9eeab3bb59644130f5c78c6898315cc094a43af
+SHA256: af117cb564093ef22f83526e5498365b653d9d1a562141b1374abc5227223d14
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: purpose::library
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Dev: opa334
+Name: libundirect
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.ps.efmfontdl
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 8
+Depends: wget, curl
+Filename: ./debs/com.ps.efmfontdl_1.0.6_iphoneos-arm.deb
+Size: 1568
+MD5sum: 2a05dd32a4a5cc6248364b8531402d97
+SHA1: ba55c1a73a9ba4c13fda92bda7166beb80d7da86
+SHA256: a9db96b844490f25f11f8e4cd84d7023032002854cf83224dbe1e5dd2fe2dd24
+Section: Fonts (EFM)
+Description: Shell script to download emoji font for EFM.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/efmfontdl.html
+Name: EFM Font Downloader
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/efmfontdl.json
+
+Package: com.ps.efmfontsetter
+Version: 99.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: defaults | ws.hbang.common, sudo, com.ps.emojifontmanager, com.ps.emojifontefm
+Filename: ./debs/com.ps.efmfontsetter_99.3_iphoneos-arm.deb
+Size: 726
+MD5sum: e6031dc23ca3511fcf8d3cec5327cf8e
+SHA1: 8e21fc395431e7df7285248d5c6e843bad729e8b
+SHA256: fdd315f0fe75e4c5ea43553f879f559a929edbea25edb608cdd5e1e2e5ec29c2
+Section: Utilities
+Description: Apply AppleColorEmoji EFM font with a shell script.
+Author: PoomSmart
+Name: EFM Font Setter
+
+Package: com.ps.emojiattributes
+Version: 1.10.0~b3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 632
+Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.1.6)
+Conflicts: com.ps.flexmoji
+Filename: ./debs/com.ps.emojiattributes_1.10.0~b3_iphoneos-arm.deb
+Size: 57288
+MD5sum: 218d4ecb5f3ca34935dbc3b86f9ea6ce
+SHA1: 81073b9422838f028aad3520d6eab26787150e17
+SHA256: 7b2ec76003e7c60f7c89e61d0b888098b2ab58f7d47240768edde2499b81e133
+Section: Tweaks
+Description: Various under-the-hood fixes for emoji display.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
+Name: EmojiAttributes
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
+
+Package: com.ps.emojidarkstyle
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 276
+Depends: mobilesubstrate, firmware (>= 7.0), firmware (<< 10.2)
+Conflicts: com.ps.emojiresourcesdark
+Filename: ./debs/com.ps.emojidarkstyle_1.0.7_iphoneos-arm.deb
+Size: 23532
+MD5sum: 12be041953d2d5b0702b58b7d339f30c
+SHA1: 7a7469cc2058c0ddd85b18780b6062f1a042fffd
+SHA256: 3b7a65edac2bc6ce54fd9f22f1821d60a1419bbaac3fd55b4f74b56fb9c880f6
+Section: Tweaks
+Description: iOS 10.2+ dark emoji icons.
+Author: PoomSmart
+Name: EmojiDarkStyle
+
+Package: com.ps.emojifontefm
+Version: 17.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/com.ps.emojifontefm_17.0.0_iphoneos-arm.deb
+Size: 734
+MD5sum: b0a8dd56eb2961152cfc5e6d4f69ce1e
+SHA1: 932c50c20ce06e1d23ce016cde917da5249e4890
+SHA256: 63663db3a819e2eac5f88fa5cd64dd22ec612f1367cf29f41510edb7461c8d02
+Section: Fonts (EFM)
+Description: Unicode 17.0 AppleColorEmoji font (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontefm.html
+Name: AppleColorEmoji Unicode 17.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontefm.json
+
+Package: com.ps.emojifontmanager
+Version: 1.3.8
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
+Filename: ./debs/com.ps.emojifontmanager_1.3.8_iphoneos-arm.deb
+Size: 40308
+MD5sum: 633d0e3121be0c19b9bdcdb28eb9a06d
+SHA1: 629c27e2454f30037769a700b8d17af29413a5f2
+SHA256: 0b62cb7cdb470156f5096ffc75067cd8fcb7fa6937ffc9a9cfb88e7b52156058
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
+Package: com.ps.emojilibrary
+Version: 1.8.0~b7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 680
+Filename: ./debs/com.ps.emojilibrary_1.8.0~b7_iphoneos-arm.deb
+Size: 100102
+MD5sum: 7051e5d204273bf2b50ab788dbe8b3cb
+SHA1: 8bb0734e16d51b9f1b6ef1dd78ca3f35d0b223dc
+SHA256: dd2ba59857922eda5174e467d3674f31ced91db5dc85adf52efc2925ef3e9b57
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Tag: role::developer
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
+Package: com.ps.emojiport10resources-assets16
+Version: 1.9.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 47348
+Depends: firmware (<< 17.0)
+Conflicts: com.ps.emojiport10resources (<< 1.9.0)
+Replaces: com.ps.emojiport10resources (<< 1.9.0)
+Filename: ./debs/com.ps.emojiport10resources-assets16_1.9.0_iphoneos-arm.deb
+Size: 16026376
+MD5sum: 7d8739623f447ca69d676b129dc87f84
+SHA1: 4f9881f901767c3d159ded5fe0b7bbf3eb8175e7
+SHA256: 9a779fe9afbe09a2f95b3b0f759faf52f2f3630c7064577a380eda170f4d2546
+Section: Tweaks
+Description: CFBurstTrie keyword index files for iOS 16 and earlier
+Author: PoomSmart
+Name: EmojiPort Resources — iOS 16 Assets
+
+Package: com.ps.emojiportps
+Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 268
+Depends: firmware (>= 8.3), firmware (<< 10.0), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilibrary (>= 1.6.0~b2), firmware (>= 9.1) | com.ps.emojilocalization (>= 1.1), firmware (>= 9.1) | com.ps.emojiresources (>= 1.1)
+Conflicts: org.thebigboss.emoji83plus, com.hamzasood.emoji9, com.ps.emoji9ps, com.ps.emoji10ps, com.ps.emojiportfix
+Replaces: com.ps.emojiportfix
+Provides: com.ps.emojiportfix
+Filename: ./debs/com.ps.emojiportps_1.7.1_iphoneos-arm.deb
+Size: 14850
+MD5sum: 12250a1a8b6a221446b0dad42d1b914c
+SHA1: 784e2cbd28b7723e2c21a4121f70a865d516da96
+SHA256: 43b62a77e7557a58953fa04061d7f358ca3c3c39b7566c0a335913b7de95500c
+Section: Tweaks
+Description: Latest emojis for iOS 8.3-9.3
+Tag: compatible::ios8, compatible::ios9
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_9.html
+Name: EmojiPort (iOS 8.3-9.3)
+
 Package: com.ps.yougroupsettings
 Version: 1.0.10
 Architecture: iphoneos-arm
@@ -13033,6 +13527,25 @@ Author: PoomSmart <unicorn03.glimmer@icloud.com>
 Depiction: https://chariz.com/get/yougroupsettings
 Icon: https://img.chariz.cloud/icon/yougroupsettings/icon@3x.png
 Name: YouGroupSettings
+
+Package: com.rbt.useragentchanger
+Version: 1.1.10
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.rbt.useragentchanger_1.1.10_iphoneos-arm.deb
+Size: 53436
+MD5sum: cc29085d77d7a54902e273d059e136f4
+SHA1: 1565f739ac95bac2c853ae43d869b19098e5d986
+SHA256: 19772a47fca9829a32376a6f3bab9fb34da713ea4a42c06214977a964f31c4fd
+Section: Tweaks
+Priority: extra
+Homepage: http://modmyi.com/info/useragentchanger.php
+Description: Change your Browser's User Agent.
+Author: rbt <rbt@rtapps.de>
+Depiction: http://modmyi.com/info/useragentchanger.d.php
+Name: User Agent Changer
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.skyglow.itunesstorex
 Version: 2.5
@@ -13151,6 +13664,49 @@ Description: Depends XenHTML and XenInfo
 Author: umttpz <umttpz@outlook.com>
 Name: XenTerminal
 
+Package: com.unlimapps.uaunbox
+Version: 0.0.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 284
+Depends: com.rpetrich.rocketbootstrap
+Filename: ./debs/com.unlimapps.uaunbox_0.0.2-1_iphoneos-arm.deb
+Size: 11892
+MD5sum: ab041a8f42b41860203ca9c6a217d745
+SHA1: 1d608115599e9dae2dbe7c2abd188c1c0c383985
+SHA256: 22c9e7c5fdda7837cfc2f422234ffa22c8fc81dd9988243844af47a43bd50e4c
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=uaunboxDp
+Description: filesystem operations as if user root
+Tag: purpose::extension, cydia::obsolete, role::hacker, ios7support::1, ios8support::1
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=uaunboxDp
+Dev: i4iphones
+Name: UAUnbox
+
+Package: com.zachatrocity.roundification
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 221
+Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader
+Filename: ./debs/com.zachatrocity.roundification_1.0.3_iphoneos-arm.deb
+Size: 32416
+MD5sum: c0a8f0c73ce914d3226bd70bfae909a0
+SHA1: 02249787a57e9444a9059225c5e6b00cae8cc721
+SHA256: d543600c18ff33f6d723c551464e6efefcdafd73f2a0732e1cfef52ee01f247d
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=roundificationDp
+Description: rounded corners for NC and notifications
+Tag: purpose::extension, compatible::ios8, compatible::ios9
+Author: Zach Russell <zachatrocity@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=roundificationDp
+Dev: zachatrocity
+Icon: file:///Library/PreferenceBundles/Roundification.bundle/Roundification@2x.png
+Name: Roundification
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: cydia.com.iphonecake.AppCake6
 Version: 6.1.3
 Architecture: iphoneos-arm
@@ -13168,6 +13724,62 @@ Author: hotsjf
 Depiction: https://www.iphonecake.com/mobileapp/appcake6/
 Icon: file:///Applications/AppCake.app/icon57x57.png
 Name: AppCake
+
+Package: de.j-gessner.ccloader
+Version: 1.2.10
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 416
+Depends: firmware(>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debs/de.j-gessner.ccloader_1.2.10_iphoneos-arm.deb
+Size: 92096
+MD5sum: 88d322c04b9e910de53ac68487e90774
+SHA1: bf0ae09f61e99736994108fe1c8b442c1b6388dd
+SHA256: 96130880b80f4f4df505940ee087250a7196c998233bbc877bcbcf07bb461dff
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccloaderDp
+Description: completely customize Control Center
+Tag: purpose::extension, compatible::ios7, compatible::ios8
+Author: Jonas Gessner <support@j-gessner.de>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccloaderDp
+Dev: maxner
+Icon: file:///Library/PreferenceBundles/CCLoaderSettings.bundle/icon@2x.png
+Name: CCLoader
+
+Package: dev.mineek.muffinstore
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Mineek
+Installed-Size: 96
+Filename: ./debs/dev.mineek.muffinstore_0.0.1_iphoneos-arm.deb
+Size: 16760
+MD5sum: 1f348a94b7028f4023c27eb3b192a01e
+SHA1: fa876d5ec2b43b8518e26a5b6cd8ed046517779e
+SHA256: a5b75934991ab40a7b893b927ea36da1f819825d4658dfed814997431cd1ec00
+Section: Utilities
+Description: Downgrade iOS apps easily on-device
+Author: Mineek
+Name: MuffinStore
+
+Package: eu.heinelt.ifile
+Version: 2.2.0-1
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Installed-Size: 20224
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/eu.heinelt.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9751882
+MD5sum: 88766f339cc7b150e356331e4594db7b
+SHA1: 3ff2ab2d71d013510c2d7946165719757878a613
+SHA256: 9f8c38312d7676a88507dcac6196261185928c9b38666bab80ac50fcfb8c3c61
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Tag: purpose::uikit, cydia::commercial
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Dev: carsten
+Name: iFile
 
 Package: jp.ashikase.techsupport
 Version: 1.5.0.1-2
@@ -13228,6 +13840,30 @@ Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files
 Author: Jay Freeman (saurik) <saurik@saurik.com>
+
+Package: libactivator
+Version: 1.9.13
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Installed-Size: 5060
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Filename: ./debs/libactivator_1.9.13_iphoneos-arm.deb
+Size: 930776
+MD5sum: 3284dc032c096bc82c0fb4fa465a0386
+SHA1: a366dce78423356fb52b23e49447fd44d25d62ee
+SHA256: 35bde71d2a2d2ef02b7096e513f693744eb27445b8b2a610ce151f783407e8ad
+Section: System
+Priority: optional
+Homepage: https://rpetrich.com/cydia/activator/
+Description: Centralized gestures, button and shortcut management for iOS
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Depiction: https://rpetrich.com/cydia/activator/
+Dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Name: Activator
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.apptapp.installer
 Version: 5.0.3-2
@@ -13456,6 +14092,39 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
+Package: org.h6nry.adowngrader
+Version: 0.0.2-7
+Architecture: iphoneos-arm
+Maintainer: H6nry <henry.anonym@gmail.com>
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: ./debs/org.h6nry.adowngrader_0.0.2-7_iphoneos-arm.deb
+Size: 53280
+MD5sum: 814bfbfb309e70b575af5afe9e897e5d
+SHA1: 3d65e66c3736017940560d03cf744c3fc23d3be1
+SHA256: 72a4c1c91746c3bce290710d64f3491469548e5ef4048baeb1aca3a3fccd1674
+Section: Tweaks
+Description: Downgrade your apps. Well, at least try it.
+Author: H6nry <henry.anonym@gmail.com>
+Name: Adowngrader
+
+Package: org.jyvee8games.itunesfix
+Version: 0.2.5-5+debug
+Architecture: iphoneos-arm
+Maintainer: Jyvee
+Installed-Size: 6920
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Filename: ./debs/org.jyvee8games.itunesfix_0.2.5-5+debug_iphoneos-arm.deb
+Size: 938740
+MD5sum: 96ead52bac72d58f150d43f412ed84a6
+SHA1: a0f0b40422ea3f51336e7bfb30a7add6f6ea2d2b
+SHA256: d770313a772ac9cd09d1c70f7c531501fea57aa83231ff6a48fe55d98de7d64d
+Section: Tweaks
+Description: A fix for the iOS 7 AppStore! Original Tweak & Method by bag.xml & Requis!
+Author: Jyvee
+Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
+Name: iTunesStoreX7
+
 Package: plutil
 Version: 0.2.2-1
 Architecture: iphoneos-arm
@@ -13512,6 +14181,39 @@ Homepage: https://frida.re/
 Description: Observe and reprogram running programs.
 Author: Frida Developers <oleavr@nowsecure.com>
 Name: Frida
+
+Package: ru.rejail.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 235
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 42188
+MD5sum: 32f556ef855ef19f661748a010cb8a21
+SHA1: 4aa66f07686d5fd3ad7c27b829b723d360da029f
+SHA256: 12a26a0af63e2d695414f3134f0897a19a387f167f3bfa599dd050fd39b2fefd
+Section: Tweaks
+Description: Взлом внутриигровых покупок
+Author: anondev
+Depiction: https://rejail.ru/depiction.php?file=localiapstore
+Name: LocalIAPStore
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=localiapstore
+
+Package: sudo
+Version: 1.6.9p12-4p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 436
+Filename: ./debs/sudo_1.6.9p12-4p_iphoneos-arm.deb
+Size: 179154
+MD5sum: d27d1b293fd479c723146e73d1a46eab
+SHA1: 821eb4198e35ad596d13ccbe807fa7c35202a2df
+SHA256: 0bc251e772c22c30f82be302c858dd014fdda6ce1bba2be2d00dbf11620c96c0
+Section: Administration
+Priority: standard
+Description: temporarily assume root priviledges
+Name: Sudo
 
 Package: uk.invoxiplaygames.ahahah
 Version: 3.0-beta3-A12+update
@@ -13651,6 +14353,23 @@ Author: InvoxiPlayGames
 Depiction: http://cydia.invoxiplaygames.uk/dp/doubletweetlength.php
 Name: DoubleTweetLength
 Sileodepiction: http://cydia.invoxiplaygames.uk/dp/doubletweetlength.json
+
+Package: uk.invoxiplaygames.googlesigninfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames
+Installed-Size: 52
+Depends: mobilesubstrate, firmware (>= 6.0)
+Filename: ./debs/uk.invoxiplaygames.googlesigninfix_1.0.1_iphoneos-arm.deb
+Size: 3432
+MD5sum: 9112f892fbaaa0b307151cfd1bad5276
+SHA1: d6e5506ea296892e80923293098dd792bc58834c
+SHA256: cb174fc33fbf70d07a99eba5338dd75114ef1118b5fb2f8c015093784bb7edfd
+Section: Tweaks
+Description: Fixes Google-owned app login on iOS 6.
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/gsigninfix.php
+Name: GSignInFix
 
 Package: uk.invoxiplaygames.googlesigninfix
 Version: 1.0.1
@@ -13904,6 +14623,22 @@ Depiction: http://hackulo.us/depict/crackulous/
 Name: Crackulous
 Sponsor: Hackulo.us <http://hackulo.us>
 
+Package: us.hackulo.resources
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Filename: ./debs/us.hackulo.resources_1.4_iphoneos-arm.deb
+Size: 1162
+MD5sum: c7b03d949aff15822dea1239bc271394
+SHA1: bbcdb7943b181212719837be09d2534352907565
+SHA256: d05733e58b914fa1a56db8cb6d42762933fa359d0ad000f3c7844d5dccd5a498
+Section: Hackulo.us
+Priority: standard
+Description: Hackulous resource files for Installous.
+Author: docmorelli <apps@hackulo.us>
+Name: Hackulous Resources
+Sponsor: Hackulo.us <http://hackulo.us>
+
 Package: wiki.qaq.qqhdloginfix
 Version: 1.0
 Architecture: iphoneos-arm
@@ -13925,6 +14660,24 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqhdloginf
 Dev: lakraream
 Name: QQMusicHDLoginFix
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: xyz.cypwn.flexcrack
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate, ws.hbang.common, ldid
+Filename: ./debs/xyz.cypwn.flexcrack_1.3_iphoneos-arm.deb
+Size: 5441076
+MD5sum: d8ffdfe9f5b9b79e216bbd16fb415bde
+SHA1: 8fcd7fd9266b8b63791333cf22eb96885e700cf1
+SHA256: f06712ba5231fd731d930e7d5f6817148374cf5c898011222d91bcbe493b52e4
+Section: Tweaks
+Description: Crack/Decrypt Apps
+Author: CrazyMind90 & BandarHelal
+Depiction: https://repo.cypwn.xyz/depiction/643
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/flexcrack.png
+Name: FlexCrack
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/643
 
 Package: xyz.itznebbs.customsounds2
 Version: 1.2
