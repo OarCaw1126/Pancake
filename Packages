@@ -135,6 +135,38 @@ Dev: adriano
 Name: EmojiType
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: ch.emri.contactswipe
+Version: 0.3.0-8
+Architecture: iphoneos-arm
+Maintainer: EvilPenguin (James Emrich)
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: ./debs/ch.emri.contactswipe_0.3.0-8_iphoneos-arm.deb
+Size: 12522
+MD5sum: 9ba6260b7ce961e34804a9073a14084a
+SHA1: e7616a91dc645e1f67c91bb879f48d3e3d016bc5
+SHA256: 1bd6bcb87b9fe74082912b1208d7b3caef3f92e5defbde759ec2626ddbcc66f7
+Section: EvilPenguin
+Description: A tweak that allows you to make phone calls from the contacts or phone app with just a swipe.
+Author: EvilPenguin (James Emrich)
+Name: ContactSwipe
+
+Package: ch.emri.sbiconsize
+Version: 0.0.1-198
+Architecture: iphoneos-arm
+Maintainer: James Emrich (EvilPenguin)
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/ch.emri.sbiconsize_0.0.1-198_iphoneos-arm.deb
+Size: 5540
+MD5sum: 67a33bb4b8cc15b2f2d4ecb76d76a1b2
+SHA1: 3eb74b42cf95860df58b3ffab3cfe8e7632010d1
+SHA256: 11691d100d3b8f989f9bfe5ed818d44347381ab330be19748f5eee1c61d3414a
+Section: EvilPenguin
+Description: An awesome MobileSubstrate tweak!
+Author: James Emrich (EvilPenguin)
+Name: SBIconSize
+
 Package: cokepokes.crash-reporter
 Version: 1.16.0-7
 Architecture: iphoneos-arm
@@ -10375,6 +10407,453 @@ Dev: ca13ra1
 Name: InvertRespring
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.chikuwa.allownestedfolders
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.allownestedfolders_0.0.1-1_iphoneos-arm.deb
+Size: 3316
+MD5sum: 466a69c19911aca2452237847e1480c1
+SHA1: 7f78b8829b7e7e96b62626b2245f2340058fc152
+SHA256: 62041cfed9443a94372b254d55949531df194bbf5d4d99dcb8bd4330814b9ffb
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: AllowNestedFolders
+
+Package: com.chikuwa.alwaysanonymouslineq
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.alwaysanonymouslineq_0.0.1_iphoneos-arm.deb
+Size: 3612
+MD5sum: c91f5a7635618a5ec1c9a93e99a8910f
+SHA1: 65ee45fdcbe0d5adadede530aef99c7f51e137cd
+SHA256: 38b76c0bb208c47dea02f6635fcb422b99cce143437689b8c4a2678739bdf195
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: AlwaysAnonymousLINEQ
+
+Package: com.chikuwa.appid
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 140
+Depends: applist
+Filename: ./debs/com.chikuwa.appid_1.0.0_iphoneos-arm.deb
+Size: 8854
+MD5sum: 96faa85cff8d2b0c3cdd02cf3077aa9a
+SHA1: 640be2289a6a54c4560c34a8c4423c185c1ab0b4
+SHA256: 0b97a2519830142cad9949fad71d2f1eeb33ae52261a69822af453815b2438c3
+Section: Utilities
+Description: An awesome application!
+Author: Chikuwa
+Name: AppID
+
+Package: com.chikuwa.appids
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 720
+Depends: mobilesubstrate, applist (>= 1.4.1), firmware (>= 3.0), preferenceloader
+Filename: ./debs/com.chikuwa.appids_0.1-1_iphoneos-arm.deb
+Size: 547692
+MD5sum: 9f432c025c8e824e14031c9e41c96477
+SHA1: e0e92361a03cfc4c03edfc8d3a73d42a2e347f12
+SHA256: 35bb3747039386bbfceaee91461166a8dd32169adcf31e70ba88783eb960d694
+Section: Tweak
+Description: インストールされているアプリのIDを吐くだけ
+Author: Chikuwa
+Name: AppIds
+
+Package: com.chikuwa.autolowpowermode
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.autolowpowermode_0.0.1_iphoneos-arm.deb
+Size: 3728
+MD5sum: bb5698a87eaf8e7d3b8664223193f8e7
+SHA1: c9cf96fdd02048ff3a5a9aac4deebed3045ff937
+SHA256: e701756d5bb0b0770a892ccebaf61e61c3d8fe0f05b8f8e2277644b4780e5d67
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: AutoLowPowerMode
+
+Package: com.chikuwa.badgeflipswitch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 301
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.badgeflipswitch_0.0.1_iphoneos-arm.deb
+Size: 70282
+MD5sum: 24910ac53ab087085ffb5c6adffa20a0
+SHA1: d160fe8865aa1730712970ac79a4762eda6ed4d1
+SHA256: a12f8a9cc3f1130c5cd4f75f7314dba04904dfaee4ade45f5ebb69bd208af03a
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: BadgeFlipSwitch
+
+Package: com.chikuwa.batteryiconwhilecharging
+Version: 0.0.1-4
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.batteryiconwhilecharging_0.0.1-4_iphoneos-arm.deb
+Size: 3366
+MD5sum: 0419131568cb07e781f495149cba9544
+SHA1: fd11412c3503e8c23d877fae25541906fdaf0228
+SHA256: 7c6ea519442e1a47d9e79705c9fb144589e25ff8fdda808d55db811c2129f878
+Section: Tweaks
+Description: Displays the battery Icon Only While Charging the device.
+Author: Chikuwa
+Name: Battery Icon Only While Charging
+
+Package: com.chikuwa.betarepo
+Version: 1.0
+Architecture: iphoneos-arm
+Filename: ./debs/betarepo.deb
+Size: 686
+MD5sum: 60b45cd3e7660a4951ac337dc9a7c4e0
+SHA1: 96c5eab18b3061f5e616a357ebacb2b5aac557fd
+SHA256: 30576f237438ae7225f6d5a5a8cf5070b16440ad7442f1483df5680c4e35794a
+Section: Repositories
+Description: Chikuwa's Beta Repository
+Author: Chikuwa
+Name: Chikuwa Beta Repository(repo.chikuwajb.cf)
+
+Package: com.chikuwa.buylineextender
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 128
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.buylineextender_1.0.0_iphoneos-arm.deb
+Size: 5118
+MD5sum: f133757c7cc1fdacfd4c84a7ad2345fe
+SHA1: c866f2d6039464e5e911094bb07a2f3c60e6ba5a
+SHA256: 47f319cf83f99bb628df84ddd70080fed924f3796203f46889df645df0b5e069
+Section: Tweaks
+Description: Extend your LINE!!
+Author: Chikuwa
+Depiction: http://chikuwajb.github.io/repo.chikuwajb.cf/dp/?p=com.chikuwa.buylineextender
+Name: BuyLINEExtender
+
+Package: com.chikuwa.bypasstsumtsumversioncheck
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.bypasstsumtsumversioncheck_0.0.1_iphoneos-arm.deb
+Size: 3360
+MD5sum: 0d384c054cdc157ab5507ba6157d100e
+SHA1: e0c3fcb66f668ae35e613b4ec9f20bd78e995f68
+SHA256: 18e356ac509d984e7a67cebf33de6ed3c0177c4337c5ae0ea41b97e8f7387b95
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: BypassTsumTsumVersioncheck
+
+Package: com.chikuwa.cacheclean
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa <yuko.mail.10.2@gmail.com>
+Filename: ./debs/com.chikuwa.cacheclean.deb
+Size: 2196
+MD5sum: cf6e991b3f9e00fe9de7a006d8f90c57
+SHA1: e8f1282c0663b89b13fa8a2be8fa642bbc660b10
+SHA256: 890a74253c131e7f40cda179aa878f8c0df017733d41277cd3f27f024ffc86e7
+Section: System
+Homepage: http://webttech.werdpress.com/
+Description: アイコンキャッシュを削除するだけ
+Author: Chikuwa <yuko.mail.10.2@hogehoge.com>
+Icon: file:///var/mobile/Library/Chikuwa_Icons/com.chikuwa.cacheclean.png
+Name: icon cache cleaner
+
+Package: com.chikuwa.camerasilent
+Version: 0.0.2-3
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 80
+Filename: ./debs/cameraslient.deb
+Size: 683472
+MD5sum: bf6973ed748a89b72fbd86662aeb5784
+SHA1: cd30162b08349c913705a69f29a75709de362c90
+SHA256: ae56c9b40ddb1201f32b3ab3bfb96a7f67557fc3a5b4b2f6255c4a2507fe88d3
+Section: Utilities
+Description: Camera
+Author: Chikuwa
+Name: CameraSilent
+
+Package: com.chikuwa.centerbanner
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.centerbanner_0.0.1-1_iphoneos-arm.deb
+Size: 3732
+MD5sum: 9d495272670390b27ed1d204b1ac6684
+SHA1: 40d1af1cb4f559f123b5de22a34400c25ee8fb8a
+SHA256: fa412d85fc3bd2ca4f6acbcb08eac156282ccd0ac5da7a4aa44a857c889cbf24
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: CenterBanner
+
+Package: com.chikuwa.chargingstatusbar
+Version: 0.0.1-5
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 223
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.chargingstatusbar_0.0.1-5_iphoneos-arm.deb
+Size: 10738
+MD5sum: 6d2cf6cc9703a5c400a980dc20edc6c3
+SHA1: 84f8812eec67f4a1d73a9450b9227c5c0f2e925e
+SHA256: 11f13e751a68e6fd61c341ed3539dd60dedff54255ac548c1011e008b125f26a
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: ChargingStatusBar
+
+Package: com.chikuwa.cnopagebounce
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.cnopagebounce_0.0.1_iphoneos-arm.deb
+Size: 3488
+MD5sum: 7b9fbaa5b3313489736d671eaf7faaa6
+SHA1: 4a653c3e4fbe15162126c9c7cb7322cca57b8325
+SHA256: 12a0c0b38cb6848bf2e9677ba26e8bcd8b778116f7f03c53a7138a8ef0476f53
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: CNoPageBounce
+
+Package: com.chikuwa.colorsafariprogress
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 214
+Depends: mobilesubstrate,org.thebigboss.libcolorpicker
+Filename: ./debs/com.chikuwa.colorsafariprogress_0.0.1_iphoneos-arm.deb
+Size: 11538
+MD5sum: 5f8dc62b4e2c7512523228b1c150bee5
+SHA1: 7f21a6e3900c96dd07d8ea82ad1c5be163c0d078
+SHA256: 827b02e6f38a203918b965b924791570d606c643cfd1a510b8ef5870088f240d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: ColorSafariProgress
+
+Package: com.chikuwa.colortweetbotaction
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 211
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.colortweetbotaction_0.0.1_iphoneos-arm.deb
+Size: 11572
+MD5sum: 025fd0f1151b73e2dd713d949d26944e
+SHA1: 434c90f124d2b38580703cd7c279a9136c396a36
+SHA256: 8351e336d1c7f180417534e8fac029d4ae8105983a15cbf7e3137957e2c1bcc0
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: ColorTweetbotAction
+
+Package: com.chikuwa.confirmsendmessage
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.confirmsendmessage_0.0.1_iphoneos-arm.deb
+Size: 5008
+MD5sum: 0bf52910367bd5510ea5c3183eaff12f
+SHA1: 23dfa029eecc743fff3bd53f08bce446efac057c
+SHA256: 9f8888a5185d04854d7f3d79a8535c964f52657f67cc500486755a19da15ea80
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: ConfirmSendMessage
+
+Package: com.chikuwa.confirmsendsticker
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.confirmsendsticker_0.0.1_iphoneos-arm.deb
+Size: 4952
+MD5sum: 49136cb9c7a6d05ae4919ec480c010be
+SHA1: ac302b0f5392fb17c91cd2be837daa05c2277a33
+SHA256: ea822d9810418c019814da60c0a39740452b5acd6ccd0b5d27356255a3e0a94c
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: ConfirmSendSticker
+
+Package: com.chikuwa.confirmtweet
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.confirmtweet_0.0.1_iphoneos-arm.deb
+Size: 5070
+MD5sum: a4aa6d2c83fb982102d3e6c8c43cba8c
+SHA1: 0fe486833f4f21f91423d0e0fb4b6c60b7dca085
+SHA256: 7d9501fed2af86aed2875b31fac07c419889bfd629c0672cfa837031a2c40391
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: ConfirmTweet
+
+Package: com.chikuwa.customunlocktext
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 214
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.customunlocktext_0.0.1-2_iphoneos-arm.deb
+Size: 8746
+MD5sum: 19bc160a2d664f18656880e2dc688cad
+SHA1: 38b7ff10e20951c3f850d7cd3d393b693b28e1d9
+SHA256: 5c64c8ae7fa8e386c83d5b1198536fff15c0899400b54a70af00c7f4cf2ef442
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: CustomUnlockText
+
+Package: com.chikuwa.cydiahideupdates
+Version: 0.0.0~beta1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa <chikuwajb@gmail.com>
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.cydiahideupdates_0.0.0~beta1_iphoneos-arm.deb
+Size: 4658
+MD5sum: 1b0647478933988882e96995d7b61806
+SHA1: a227aea3c09d88ce5ee23e80e163fee76a997027
+SHA256: 7ef910ec87033a14839df3fe6260b7d7cf51b63faaa3a42381432eeaf83a70a8
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa <chikuwajb@gmail.com>
+Name: CydiaHideUpdates
+
+Package: com.chikuwa.disableuninstall
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 153
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.disableuninstall_0.0.1-2_iphoneos-arm.deb
+Size: 7776
+MD5sum: 2cfdb976421b63167233d9327e1bec2f
+SHA1: 534e54a0d730160c9bb54b6bdd59f597485a7dc5
+SHA256: 4c682693817046940c10769b396a1cdcd89067cfe34ef2d546efc17231a88843
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: DisableUninstall
+
+Package: com.chikuwa.earphonemusic
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 154
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.earphonemusic_0.0.1-1_iphoneos-arm.deb
+Size: 12592
+MD5sum: 0771458bc0aeab166f814929b7ae884d
+SHA1: aac9446db0e7faaa919a95953b11057dffbbecb5
+SHA256: c762a8095d3091309403c33eb1341367785abbd81e9a84f38f9008d2f949a807
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Icon: file:///Library/PreferenceBundles/EarphoneMusic.bundle/EarphoneMusic@2x.png
+Name: EarphoneMusic
+
+Package: com.chikuwa.earphonestatusbar
+Version: 0.0.1-4
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 162
+Depends: mobilesubstrate,libstatusbar
+Filename: ./debs/com.chikuwa.earphonestatusbar_0.0.1-4_iphoneos-arm.deb
+Size: 11670
+MD5sum: b5c4ce14e82eeaa27b6bb8d2f50e4165
+SHA1: 39122ebab07987a7e4fa73cf9dd0ae81c0f3fc3c
+SHA256: 17b7dab238c1bf5407296ff2d7417ef49916e04fbc4f9d512a0c35fc67a226ca
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Icon: file:///Library/PreferenceBundles/EarphoneStatusBar.bundle/EarphoneStatusBar@2x.png
+Name: EarphoneStatusBar
+
+Package: com.chikuwa.easylowpower
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 153
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.easylowpower_0.0.1-1_iphoneos-arm.deb
+Size: 7976
+MD5sum: 1f4ff9d6ab45bf9cd6ec2cd875424a63
+SHA1: e7de97272b0c1122644222df88a313f5111bffa2
+SHA256: dcbfe8cb5dc558fa42c7d413ee1d381b7fc5f0996123c5a3394b54a9405ea244
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: EasyLowPowerMode
+
+Package: com.chikuwa.easyshutdown
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.easyshutdown_0.0.1-1_iphoneos-arm.deb
+Size: 5386
+MD5sum: 397f71fd694fc0089ea41ec8b3f33587
+SHA1: f1ba19bb2e9cfe627e3fd3dadbeadb6f4a4c70be
+SHA256: f5d4580ef5f5ab0900230af33b1ebc8cf280ea5798571fb7e085e33616a2fb63
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: EasyShutdown
+
+Package: com.chikuwa.emojifavoritesenabler
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.emojifavoritesenabler_0.0.1-1_iphoneos-arm.deb
+Size: 2984
+MD5sum: fca87e0728583ab32cf87fa1d2d5b42b
+SHA1: 6a77e79b27f6b1ae14586d6eeb95b517a8afd5b9
+SHA256: 45645e91af535b8353a0acbde742387b0ca91d577c034c1fcd00b54e622656a1
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: EmojiFavoritesEnabler
+
 Package: com.chikuwa.emojifavoritesenabler
 Version: 0.0.1-2
 Architecture: iphoneos-arm
@@ -10394,6 +10873,1072 @@ Author: Chikuwa <chikuwajb@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=emojifavoritesenablerDp
 Dev: chikuwajb
 Name: EmojiFavoritesEnabler
+
+Package: com.chikuwa.fakecoin
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 158
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.fakecoin_0.0.1-1_iphoneos-arm.deb
+Size: 13442
+MD5sum: 7f82cc881e5821675d87eebe69851104
+SHA1: b9219631f9765446fdb8629676fc2ff2e3ed3968
+SHA256: 9ead2a45a1b10c48476aacc5ade3c073e548cd03e674168196a45924b677d0be
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: FakeCoin
+
+Package: com.chikuwa.flashcolor
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 215
+Depends: mobilesubstrate,org.thebigboss.libcolorpicker
+Filename: ./debs/com.chikuwa.flashcolor_1.0.0_iphoneos-arm.deb
+Size: 14268
+MD5sum: 33e77145c6c8758bd2b61e3da7414fd1
+SHA1: 89e307fd0852f124e40bde216c2e70605807b08f
+SHA256: 20c502a4eba7dcb2ad8e3b76902ccff9052c7da10803e0855d2eeb2cc38042cc
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Icon: file:///Library/PreferenceBundles/FlashColor.bundle/FlashColor@2x.png
+Name: FlashColor
+
+Package: com.chikuwa.flatpreference
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.flatpreference_0.0.1_iphoneos-arm.deb
+Size: 3338
+MD5sum: e444a57d9317c10428f57b54957895c0
+SHA1: cbbf8ebbfc48ae5e984ee5bc2569965900896c9c
+SHA256: 75610bb1f926653bf5ed2a739b6d70e35daa2bda183450b41d2e4129512b4f57
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: FlatPreference
+
+Package: com.chikuwa.getmyip
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 132
+Filename: ./debs/com.chikuwa.getmyip_0.0.1-1_iphoneos-arm.deb
+Size: 4602
+MD5sum: 00d8839a5c4b4ec55b2f6ea3e0c2a01d
+SHA1: 3438c6a4ee16d575708a6b12279c00ef6f98047e
+SHA256: 0b05f7aa0dfa1b6a5d4c06af8444f9265660169e949d8fc63e285cfec3820e41
+Section: System
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Author: Chikuwa
+Name: GetMyIP
+
+Package: com.chikuwa.hideicon
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.hideicon_0.0.1-1_iphoneos-arm.deb
+Size: 4362
+MD5sum: 60dc256b5f65b5f79fb6f56e4c7e1f0c
+SHA1: 93f68aa7f31c748145329fb9d00216c8667446cd
+SHA256: 46aa0f70ce4d818c36e33b220cd50c77fc96e12fedac4ded1f5e19f643f8f627
+Section: Tweaks
+Description: アイコンを非表示にします。非表示リストは/var/mobile/Library/hideicon.plistをいじってね
+Author: Chikuwa
+Name: Hide Icon
+
+Package: com.chikuwa.icongetter
+Version: 0.1-7
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 108
+Depends: mobilesubstrate, applist (>= 1.4.1), firmware (>= 3.0), preferenceloader
+Filename: ./debs/com.chikuwa.icongetter.deb
+Size: 9580
+MD5sum: 288d0b89163ba675f3dd15c52931e71f
+SHA1: 1e1b62e7ecef7093c344b36e0b7cfbba486ea9d7
+SHA256: 57774ad377eeba37cb48d3aa884483e0f4871b45534461931984ecabd8bd4e51
+Section: Tweak
+Description: アプリのアイコンを取得します(まだβ版)
+Author: Chikuwa
+Name: IconGetter
+
+Package: com.chikuwa.imagepass
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 150
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.imagepass_0.0.1-1_iphoneos-arm.deb
+Size: 12428
+MD5sum: d56d6fc5589453e4818efe4bee204849
+SHA1: c495e8c1a1f250fb8abfe3d0cd597466623ae362
+SHA256: 8a9cae2ecfe4899b54ff7c16ebf0b14c7f46c2b8d8dd7e6f450954db7c38c26a
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: ImagePass
+
+Package: com.chikuwa.instasaver
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.instasaver_0.0.1_iphoneos-arm.deb
+Size: 6270
+MD5sum: c8c1a6fe478ad6e76a2049d0edcb890a
+SHA1: 46f640d431584940932c81beaccdb84eb6db69c2
+SHA256: cf30a5762a406ff13fa35094f6fa3b291eb1855c8714a224f562bfcd0975a5b8
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Main
+Name: InstaSaver
+
+Package: com.chikuwa.jpegscreenshot
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.jpegscreenshot_0.0.1_iphoneos-arm.deb
+Size: 4426
+MD5sum: 0b5324833b29301fcb02a7d765823176
+SHA1: d4bb2ed10a0885c1d0889cad159ca31d3e3f4202
+SHA256: 1eff55e58dda134edbf02ff61e3629c9c6b74aa28dc09a7c35e27689b38d1e92
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: JPEGScreenShot
+
+Package: com.chikuwa.killme
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 70
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.killme_0.0.1-1_iphoneos-arm.deb
+Size: 6472
+MD5sum: 0636e915146735326c9f5ba2a91cde9e
+SHA1: cf98b2965af30a79619db753bd478a363588aff2
+SHA256: 66ec1f37b66787bb097763ae8823bdd4ab310e17c413739d4a8b213737b9a25a
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: KillMe
+
+Package: com.chikuwa.line
+Version: 0.1.8
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 80
+Depends: wget, com.chikuwa.cacheclean
+Filename: ./debs/com.chikuwa.line.deb
+Size: 42434
+MD5sum: 8564327cfa04b305f737801ef9cd93f9
+SHA1: a2fe51d5dd4f45ac08de68d426147d0e901c4743
+SHA256: 6d821a2b3487f3b299fc3c8852e68d547f5c717d853e58f8a10a35fbd5882dc3
+Section: Utilities
+Description: LINEの非公式きせかえストア
+Author: Chikuwa
+Name: LINEきせかえストア(Beta)
+
+Package: com.chikuwa.lineage
+Version: 0.0.2-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 96
+Filename: ./debs/com.chikuwa.lineage.deb
+Size: 41626
+MD5sum: 67a4b1e574ebe07d26b39e6719990f49
+SHA1: 403756d8d420c2ee55fffbc111aaf3766050ec15
+SHA256: aad87e5407f322b6c08dde4af6b0900d598423f9278ec26d0555e0d73cf6a631
+Section: Utilities
+Description: LINEの年齢認証を回避
+Author: Chikuwa
+Name: lineage for ios7&6
+
+Package: com.chikuwa.lineage8
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Filename: ./debs/com.chikuwa.lineage8.deb
+Size: 43272
+MD5sum: 3227b432bbe4000801113fe8dc0d2dee
+SHA1: b339413a536990a97aa2c16b4179b17f3c4128d1
+SHA256: 57e05f847e6f1c7f367e75c86061d8615f37a8de8a4e1bfa436445648011b2d0
+Section: Utilities
+Description: LINEの年齢認証を回避します
+Author: Chikuwa
+Name: lineage for ios8
+
+Package: com.chikuwa.lineextenderflipswitch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 232
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Filename: ./debs/com.chikuwa.lineextenderflipswitch_0.0.1_iphoneos-arm.deb
+Size: 29280
+MD5sum: b216edd6d1873bc31e86dd699a9149a2
+SHA1: b0733ff15ff6539bc84516ce71fe8abadea45cab
+SHA256: f583fc3331e0f65e5cb666119c5921f0e7599640345de1f661003ae9bdab0862
+Section: Tweak
+Description: A Simple Switch for the Flipswitch API!
+Author: Chikuwa
+Name: LINEExtenderFlipSwitch
+
+Package: com.chikuwa.linegroupcallenabler
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.linegroupcallenabler_0.0.1_iphoneos-arm.deb
+Size: 3320
+MD5sum: 3b928f39b743de8104c77023d62dcca7
+SHA1: 54675cf086ebc5be9d32d4293842652170430679
+SHA256: e2b5f9780bee79494b15f10c411fc74a500130d3562d3a92228e2a9c3c5114ad
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: LINEGroupCallEnabler
+
+Package: com.chikuwa.lineios8
+Version: 0.2.2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 104
+Depends: wget
+Filename: ./debs/com.chikuwa.lineios8.deb
+Size: 721800
+MD5sum: 9d9ba65db76f9b481ab49898d24cdf9d
+SHA1: 9d50d0d3064242f2cc1d8a3ccd86809965b8a290
+SHA256: b679137891412e607d31d4e7711978fbd2bad67eb0b65c53d63caa4436777146
+Section: Utilities
+Description: LINEの非公式きせかえストア.iOS8対応版
+Author: Chikuwa
+Name: LINEきせかえストア ios8
+
+Package: com.chikuwa.linej
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Filename: ./debs/LINjEctor.deb
+Size: 46986
+MD5sum: ec39e8e36f8bdc48d542752ca6059c39
+SHA1: 02f7675dbb2b91191f4975446520e6ea49ff0e91
+SHA256: 35ea4ac1fadd6bdd5b1a24240bebf188b3613c343d1036f1b27649ab4876cc97
+Section: Utilities
+Description: 動くかわからない。。
+Author: Chikuwa
+Name: LINjEctor(自己責任)
+
+Package: com.chikuwa.linepresentenabler
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.linepresentenabler_0.0.1_iphoneos-arm.deb
+Size: 3326
+MD5sum: 229fb7ddc53a8cbbd3f5b9b6010f34fb
+SHA1: 4fa871136d83591b00f13b3f588276f9230b9f86
+SHA256: bbf8d953cf8f8aa019c28e6031f030801539c481e48e2f24e3dd34dd1bcfc0ff
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: LINEPresentEnabler
+
+Package: com.chikuwa.locksiren
+Version: 0.0.1-3
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 1300
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.locksiren_0.0.1-3_iphoneos-arm.deb
+Size: 1165506
+MD5sum: 491698d4bab4245a7873df078443a18e
+SHA1: 97ac7706a565ba3d34e4eff056a0528d096c9628
+SHA256: 4d79df0395dc267561f8f625ff9d87874d13ce22d5fa07861f290f42dbec25bf
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: LockSiren
+
+Package: com.chikuwa.lowpowermodestatusbar
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 234
+Depends: mobilesubstrate,libstatusbar
+Filename: ./debs/com.chikuwa.lowpowermodestatusbar_0.0.1_iphoneos-arm.deb
+Size: 10860
+MD5sum: a7019232cd2cd9ddde39ccbb8bcdd872
+SHA1: 221da6fb39ac7e2d453d5509b4503e6d29644cee
+SHA256: f0f9cb8265cc825f4b47688807623715063efc0b4702f2f0e3682fc04bd928c9
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: LowPowerModeStatusBar
+
+Package: com.chikuwa.netcheck
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 764
+Filename: ./debs/com.chikuwa.netcheck_0.0.1-1_iphoneos-arm.deb
+Size: 631184
+MD5sum: 0775d0e98623167b3d0220e5bc56b76e
+SHA1: d0227a497b420bcec3c8ded06df1854ff1e84f82
+SHA256: c22cd628bd1c946a3adbe3c62d850d963a4f5a2a3660cd84c4ce3a6aea91b9f4
+Section: Utilities
+Description: ただただネット環境を表示するアプリ
+Author: Chikuwa
+Name: NetChecker
+
+Package: com.chikuwa.noairplanemodeicon
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.noairplanemodeicon_0.0.1-2_iphoneos-arm.deb
+Size: 3396
+MD5sum: b5779388f6b5ddf476293c5e8db2485d
+SHA1: c2e640f3d4b5b27fb2955c622ddfb399499aa0ef
+SHA256: d287858060767c5dbeab611c6fa499fbe3cb925810a5d418ae624aee1c00c549
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoAirplaneModeIcon
+
+Package: com.chikuwa.noairplayicon
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.noairplayicon_0.0.1-2_iphoneos-arm.deb
+Size: 3332
+MD5sum: d8b852639a5d9880051123400e4ae281
+SHA1: 4340f4533b780d00290a5d4568f8e51da8762977
+SHA256: ec432d9538becfdf2da27c0ae99bed95b084487422d2dc3764ffa15a10efca9e
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoAirplayIcon
+
+Package: com.chikuwa.noappstoretrending
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.noappstoretrending_0.0.1_iphoneos-arm.deb
+Size: 3536
+MD5sum: 4f091f661a4d4de73d369fdeb8def44d
+SHA1: 0765c2f43bf2642e753ecf88b36ff80d6b904ac1
+SHA256: 1483108eac19def6ee5850fa06c38d01a52dee40f1df354e98c23a0dbb14e7c4
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoAppStoreTrending
+
+Package: com.chikuwa.nobatteryalert
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nobatteryalert_0.0.1_iphoneos-arm.deb
+Size: 3610
+MD5sum: 2c95af979f7135c8fb254060db4f6a2d
+SHA1: cf883875d218e8528f551f593b2c349772fca8aa
+SHA256: f086a673e727a2ee5feb459132785ced840e50c81a14a39d0a9f1378cb158f93
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoBatteryAlert
+
+Package: com.chikuwa.nobatteryicon
+Version: 0.0.1-4
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nobatteryicon_0.0.1-4_iphoneos-arm.deb
+Size: 4106
+MD5sum: 8a241cc88a7a8a8bc9910ceef534d6ac
+SHA1: 7ebfbf2695f63efe7eb3cd20e227abf1ebaddd62
+SHA256: 5297919d8361c8c863cd182e742457999facb3642c663f2c1935a9f91037c9c4
+Section: Tweaks
+Description: バッテリーアイコンを非表示にするだけ！ソースたったの6行！
+Author: Chikuwa
+Name: NoBatteryIcon
+
+Package: com.chikuwa.noborderterminal
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.noborderterminal_0.0.1_iphoneos-arm.deb
+Size: 3496
+MD5sum: 1d72270e7b6611a8f60f80250f0bc236
+SHA1: 7962edb37aaa90ce719fe6356f7cbaecf73dcc06
+SHA256: 0f3fa8b939c541b0e0031848e2a5d5cd2a723cd87bc64864a4db91fde1c2ba56
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoBorderTerminal
+
+Package: com.chikuwa.nodiskspacealert
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nodiskspacealert_0.0.1-1_iphoneos-arm.deb
+Size: 4324
+MD5sum: 53581ddab298414f527976e1d06abd24
+SHA1: 7da73fae721a9c8cfb14a1dea2e09500b2a6e9b0
+SHA256: 7b25ee7c9d19abd9b6ab5a380e42ef2a2da23e2beb6306ac9c668eb05646b3ed
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoDiskSpaceAlert
+
+Package: com.chikuwa.nofloatdateview
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nofloatdateview_0.0.1_iphoneos-arm.deb
+Size: 3316
+MD5sum: ae5c680c06dc07e193639ad99654eea9
+SHA1: 21c7bebd1f6150a3c0c1d2ac1488e0b63db6900d
+SHA256: ec6a68a500519f8bc8256a435cf34a70e1e92c271937a08d6da23a212b5315cc
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoFloatDateView
+
+Package: com.chikuwa.nofolderbackground
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nofolderbackground_0.0.1_iphoneos-arm.deb
+Size: 3324
+MD5sum: 0ea4cdaeb5f8ee7068dd20cd58efd525
+SHA1: d81c84bcc27a04f3c31fd666913bc2849785da14
+SHA256: 7178d927a868a8f06abb0e3a2dcf893c2a90e5bf88d5199036008c2de37e6110
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoFolderBackground
+
+Package: com.chikuwa.nolinearrow
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolinearrow_0.0.1_iphoneos-arm.deb
+Size: 3768
+MD5sum: d50eebc1d2b2fa1740d423b1ecfd9c45
+SHA1: eaf2aa92c22dfd2e326a439760e6d0552ef78e96
+SHA256: 8f9178ca9e970df40497cc59d8515ed67fd945b6c3f3b4cec3d129665e591696
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLINEArrow
+
+Package: com.chikuwa.nolineatlastscreen
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolineatlastscreen_0.0.1_iphoneos-arm.deb
+Size: 3340
+MD5sum: 3ffbc293fc4da4807a900cbea37ba185
+SHA1: 7b41b2c86b0d8e6f07fcdbb93094ad8a0bbc0c1f
+SHA256: 1bca581d48343527f3bde2b086678602b90fb6737fc9f43af4e70e535bf8dc36
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLINEATLastScreen
+
+Package: com.chikuwa.nolineid
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolineid_0.0.1_iphoneos-arm.deb
+Size: 3418
+MD5sum: 82769d8bc36a79bdbdaf3d8f41003b7f
+SHA1: 4309e1661ab251972dda9352acf5249d979c9650
+SHA256: c0bd598c4693758d1d082143cd5b4a049630b8c7142d1d38ff3a34fc6a03207d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLINEID
+
+Package: com.chikuwa.nolinenewstab
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: Cihkuwa
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolinenewstab_2.0.0_iphoneos-arm.deb
+Size: 4300
+MD5sum: c15f61d7e54f61e32682e9eab66d224f
+SHA1: 0a24a18750b2c97570afe9394e8246ec7722a158
+SHA256: 6a6b3a171107f83af375ae1e9ea0055bf1f4532c57638c310d7fe227e422c4fe
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Cihkuwa
+Name: NoLINENewsTab
+
+Package: com.chikuwa.nolinesearchbar
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolinesearchbar_0.0.2_iphoneos-arm.deb
+Size: 3308
+MD5sum: 7948090094ca4e34a05316bb533c4657
+SHA1: f57ca676baf57428523b94b59650b99765a68540
+SHA256: df2392a7d52f6e7f37be1d2e9dc9e4a895ddf9b9ca8396982182b99fa1c97e88
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLINESearchBar
+
+Package: com.chikuwa.nolinethemecheck
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolinethemecheck_0.0.1_iphoneos-arm.deb
+Size: 3314
+MD5sum: 1c2e7311b3b351454f91562eb0b2e077
+SHA1: 7d0cff791eb6ba79163af2745b8965e69f7d5f81
+SHA256: a924b887a530ea883c37b7183c59988074411c3f1cca6a7827af52ff0991da6b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLINEThemeCheck
+
+Package: com.chikuwa.nolinetlnews
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolinetlnews_0.0.1_iphoneos-arm.deb
+Size: 3348
+MD5sum: 96f06b412069ad9a4cbc0c6ba206cf9b
+SHA1: 4c2e9d85688fd281424b825489c3ee7ea6387098
+SHA256: 529c3c2a98d75fac3dfb19d185ef692589d9a64100f2991aeb938211819ac3fa
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLINETLNews
+
+Package: com.chikuwa.nolocationicon
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolocationicon_0.0.1-2_iphoneos-arm.deb
+Size: 3320
+MD5sum: c897f2b1ea25eb9e09efc4b723e192e9
+SHA1: a02a7741fe07a667b5aa6b8a4e87d62cbe238488
+SHA256: 515847b425525c9941ad67537cbefa99765141a00ffd6d42320d61bbb8626355
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLocationIcon
+
+Package: com.chikuwa.nolockchevron
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolockchevron_0.0.1_iphoneos-arm.deb
+Size: 3608
+MD5sum: 41cd8642ce677380f99def244dcf1e4e
+SHA1: 703ca17fcf8ca292e6c4344dcd81eec9fa71d9d6
+SHA256: 7e4ab5d3fbc212db86a192c7e1beabd7950ef01fc30d3f10f3311d0382e9e9bc
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLockChevron
+
+Package: com.chikuwa.nolockdate
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolockdate_0.0.1-1_iphoneos-arm.deb
+Size: 3044
+MD5sum: 69d00b6ab8bb8bb8c039e4814476444f
+SHA1: a048b54bae56cfad27b28acb997ecfeaa46e8df9
+SHA256: 7b15b537df5b143253226451c4435ef04d80f20cdf1010cc032093ede458803b
+Section: Tweaks
+Description: Remove lock screen date!!
+Author: Chikuwa
+Name: NoLockDate
+
+Package: com.chikuwa.nolockscreencamera
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolockscreencamera_0.0.1_iphoneos-arm.deb
+Size: 3322
+MD5sum: 4b61f6aa129a2ef7c4635601b8817a10
+SHA1: b1d39566873bec38794cf583e89d2ce11a6b53e6
+SHA256: 7b0d98f6b21ca9ec5848a4d75e9b89ae2e9af88d97789bd8cc6e46da92d82a85
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLockScreenCamera
+
+Package: com.chikuwa.nolocktimerlabel
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nolocktimerlabel_0.0.1_iphoneos-arm.deb
+Size: 3470
+MD5sum: 34c543d385cc6dae9b44213b2c96a41e
+SHA1: ae29904a81e327449ccaacce0ee0f079dafae359
+SHA256: fd4064557e5e090092fca1b93e5cfba0793782ded4fddce2e7878e2f3704b6a6
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoLockTimerLabel
+
+Package: com.chikuwa.nomoretabnewicon
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nomoretabnewicon_0.0.1_iphoneos-arm.deb
+Size: 3446
+MD5sum: c373b535c2d02d3431a5be47a2fba894
+SHA1: 8e8d40017eef4f356048a8ccbc26890f0cab2f57
+SHA256: b50c4188fdcbe4356208c963636a6b44db9acce02c355840231cb877da9584b0
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoMoreTabNewIcon
+
+Package: com.chikuwa.nonctoday
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nonctoday_0.0.1_iphoneos-arm.deb
+Size: 3322
+MD5sum: 36d8dc8ce59579a0c94b41b5ce64b14d
+SHA1: c68d0662d96b8b6ad95dd02f9101ce43099fcfda
+SHA256: 82460016ba2d493a2ff540ac5b5fbc4059b3e18319aec1c1a2220a138b55e41d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoNCToday
+
+Package: com.chikuwa.nonewpostbutton
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nonewpostbutton_0.0.1_iphoneos-arm.deb
+Size: 3324
+MD5sum: 9efd529390703e8a2e25ead4adbb5d8b
+SHA1: 8cc52c065fb8b4a098403c82c8ea999802d5c2ab
+SHA256: c5c7f9ec5b4507949dc6309cdd7f4c678679e872c8ec5252f71a077633c21fa1
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoNewPostButton
+
+Package: com.chikuwa.nonews
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nonews_0.0.1-1_iphoneos-arm.deb
+Size: 2958
+MD5sum: 20dd61fc9a7d93af7c49e21bd1666963
+SHA1: 424463d3751cb1a90117458f11b895abfb3c7be6
+SHA256: 9c5bf7995f28d7be880551c1133004aebe9b1942cc3682fb092a1626c899ff72
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoNews
+
+Package: com.chikuwa.nonosimalert
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nonosimalert_1.0.0_iphoneos-arm.deb
+Size: 2908
+MD5sum: b03070b238c05d600c707de144ff087b
+SHA1: 18c77134177236e69f815d6562d67f0ef3ba70d5
+SHA256: 76032f9d49ca0c902b1871b41ad2f225425038545444a52c167a1b9be53169f2
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoNoSIMAlert
+
+Package: com.chikuwa.nopasspadhighlight
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nopasspadhighlight_0.0.1-1_iphoneos-arm.deb
+Size: 3460
+MD5sum: fd0942debdfd4b5249a7eb9b7ec9cca5
+SHA1: 72bbd1e6fa9cab5bdb8478d7077228269e62607b
+SHA256: 4d84b9f3f9b22c4572594465a0335030f10bfa915138e3003bdff4cf08c5650d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoPassPadHighlight
+
+Package: com.chikuwa.nopreferencessearchbar
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nopreferencessearchbar_0.0.1_iphoneos-arm.deb
+Size: 3452
+MD5sum: 5ea6b81189a54657fe4ea5787650ad7d
+SHA1: 7ef43d228b38a770eea96e55e34c3391ad06f6e6
+SHA256: 23e24f33dc8330ce7ff706b66c8a72eb90db9423fabd8a46583a248e78bf0c11
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoPreferencesSearchBar
+
+Package: com.chikuwa.noscreenshotflash
+Version: 0.0.1-3
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 214
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.noscreenshotflash_0.0.1-3_iphoneos-arm.deb
+Size: 8578
+MD5sum: 1a08f2d3687c64e5caad0bcb1e7139dc
+SHA1: 197c508a35d6113d85bc8de87551b7fc54f44cee
+SHA256: 4b9ab607fb1b0284b9195def087323fd52345fe31c8a3d0b02b90e1a2b775add
+Section: Tweaks
+Description: No screenshot FLASH!
+Author: Chikuwa
+Name: NoScreenShotFlash
+
+Package: com.chikuwa.noslidetounlock
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.noslidetounlock_0.0.1-1_iphoneos-arm.deb
+Size: 3484
+MD5sum: acfc34f4d300f2c28932bfa425696287
+SHA1: 73b2312900b5754cb468d3435f40c8b67751d6ba
+SHA256: 699dfab1f77682ea5e374b21e065f6f53ab0b03b515c31d2292fae94d23045c6
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoSlideToUnLock
+
+Package: com.chikuwa.nospeechinputkey
+Version: 0.0.1-8
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nospeechinputkey_0.0.1-8_iphoneos-arm.deb
+Size: 7524
+MD5sum: 3129dd1ad0c1f8dac0fcd7fdabda0401
+SHA1: f3da795d2141bed6f2010ebc958ba087f17b7c5e
+SHA256: 186075b2dec1ea34853a086670e7512b46430af10a1812830a54294be56ef97a
+Section: Tweaks
+Description: 音声入力キーをオン・オフするだけ。
+Author: Chikuwa
+Name: No Speech input Key
+
+Package: com.chikuwa.nospotlight
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 68
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nospotlight_0.0.1-1_iphoneos-arm.deb
+Size: 3038
+MD5sum: f04beab9e62156256dfeef8ee0feb9a2
+SHA1: 83f4f99d613f0da4c39ed0b24c14a41bb578ef91
+SHA256: b0ce9c8296e2644142fd148a0c0166ef772e8cc9b2a4f44dd0723dc68426c0f6
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoSpotlight
+
+Package: com.chikuwa.noupdatemark
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.noupdatemark_0.0.1-1_iphoneos-arm.deb
+Size: 3344
+MD5sum: b7ff891e8847433821513f0d3f125076
+SHA1: 463d70fc3740b72444af4445ea080631565e76a8
+SHA256: 1c87ae3133c42c45fe048057f770ecdbc1377f9696bea0149970b26debc91258
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoUpdateMark
+
+Package: com.chikuwa.nowifiicon
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.nowifiicon_0.0.1-1_iphoneos-arm.deb
+Size: 2402
+MD5sum: 6afa330fb899b8f935a21a7f3367a5cd
+SHA1: c7b683e695d15718401ab276ae7449200762a55b
+SHA256: ff77e7b15a4e34d5635d9d1a8a68ab9d7ca123758f66cfea1b16a9ae3f5b243b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: NoWiFiIcon
+
+Package: com.chikuwa.nowplayingstatusbar
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 316
+Depends: mobilesubstrate,libstatusbar
+Filename: ./debs/com.chikuwa.nowplayingstatusbar_0.0.2_iphoneos-arm.deb
+Size: 8182
+MD5sum: ce47bf8a586e7acb77204764009d15b1
+SHA1: 641bbc353a7df91ba133b729422f2eca2888dfe4
+SHA256: 51fd6a9e483d477851361d4471276cd6ff1963adccc4e3f1f8c8a888d442dd41
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Icon: file:///Library/PreferenceBundles/NowPlayingStatusbar.bundle/NowPlayingStatusbar@2x.png
+Name: NowPlayingStatusbar
+
+Package: com.chikuwa.onehandkey
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.onehandkey_0.0.1-1+debug_iphoneos-arm.deb
+Size: 3478
+MD5sum: 0f37dfeb8fd7dcd01542924e75d973c5
+SHA1: 5a1f2c181c6497fc2963192d001596b128637020
+SHA256: e5397d058fc2a2bd5bb6c9fe1460dda25a10d6019064cc40bd0e34daad0185e7
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: OneHandKey
+
+Package: com.chikuwa.pageswitcher9
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.pageswitcher9_0.0.1_iphoneos-arm.deb
+Size: 3738
+MD5sum: ac314ab795a4bf63cc6110935398bf28
+SHA1: 02f194ef3fa90c4dc2b7a53faed04eb3fd30296c
+SHA256: 0d8be7049b92eb7dd2d8268e5858dcca22ee4f4b2c2a3c2b11f0b406ad3d8a12
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: PageSwitcher9
+
+Package: com.chikuwa.pinchtoclosefolder
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.pinchtoclosefolder_0.0.1-1_iphoneos-arm.deb
+Size: 3316
+MD5sum: 6c3a483c35e8bd49a1c808b382b60b78
+SHA1: 5be6c2bbdc9090defe0197eb01ea56984a169ee0
+SHA256: 85df2f3149b066a5efa939f1dfd5613531cd0f3dd134b961ca466fc10d68f69e
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: PinchToCloseFolder
+
+Package: com.chikuwa.pokegobrowser
+Version: 0.0.1-10+debug
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 124
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.pokegobrowser-0.0.1-10-debug-iphoneos-arm.deb
+Size: 8106
+MD5sum: 423742b5b4a9ccecb57f568fcb8a2e24
+SHA1: 2d16c66848aad35ce948146b6f0e38a45effb23b
+SHA256: a64ab562f15561924ff265e8c86a043c673099fa67a70c340e40fd2886dac417
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: PokeGOBrowser
+
+Package: com.chikuwa.publicpostenabler
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.publicpostenabler_0.0.1-1_iphoneos-arm.deb
+Size: 3008
+MD5sum: b6f1a495168f7619c74e45e2dbf4b046
+SHA1: b12fd19a642541b0d5ae1df89d032cf074398568
+SHA256: b60055a1dc2029cfdeb658a42ecf048e113659e97dd4354b3e11567d14b1e25d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: PublicPostEnabler
+
+Package: com.chikuwa.randomcccolor
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.randomcccolor_0.0.1-1_iphoneos-arm.deb
+Size: 6000
+MD5sum: dc86d583215aa9d2a1a9a8af51d7a37b
+SHA1: f7a43882e9e4a0505c3e9eb46f4389d0f2e022af
+SHA256: a20702f5d23a4cedc6f00bfe06436f915bddc85ab7b387547b708dd1ff7f26e4
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: RandomCCColor
+
+Package: com.chikuwa.reb00ticon
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 60
+Filename: ./debs/com.chikuwa.reb00ticon.deb
+Size: 8610
+MD5sum: 1da59814d98c0e596e2e0f7f55976b04
+SHA1: b805ad4a78dd7f8fa0e178cb766dfa1384feec1f
+SHA256: a3ce8f84e4cbea9f510f5c29a4a99f4fce33ba2a0c09b7f592725a43f964fc3e
+Section: Utilities
+Description: アイコンタップで再起動するよ！
+Author: Chikuwa
+Name: Reb00t Icon
+
+Package: com.chikuwa.respring
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 52
+Filename: ./debs/com.chikuwa.respring.deb
+Size: 1928
+MD5sum: 1e01871489fc0d0348951a45acb98380
+SHA1: 6a1f980d0fdabff9aa77483c43102c964d94a1ec
+SHA256: 87c8ce087281d2c292b8d33aa66cb45e526a5e61f1e5f72f464eeaf660d9be7c
+Section: System
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Author: Chikuwa
+Name: Respring on Terminal
+
+Package: com.chikuwa.respringic0n
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 56
+Filename: ./debs/com.chikuwa.respringic0n.deb
+Size: 5198
+MD5sum: 36b07d714052fcfd8e865f0cec3bff43
+SHA1: 6db1c451980ad0998ed3fe2bf3ef527a25d45caf
+SHA256: 2a9dd34ae457b41653c0000c986d1cc7f6bdfeb7417d44a72d4df967eb0a856b
+Section: Utilities
+Description: アイコンタップでリスプリング！
+Author: Chikuwa
+Name: Respring Ic0n
+
+Package: com.chikuwa.resumemute
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 101
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.resumemute_0.0.1_iphoneos-arm.deb
+Size: 4442
+MD5sum: 2ecc0556d1498664721fed51b9106e2d
+SHA1: ac82b9d7833b85c4a5e0292cab100e432ae8d2be
+SHA256: e019f6db7b6d4248803369927a93de08fb395da42306539b9d0bb94c7d5382e5
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: ResumeMute
+
+Package: com.chikuwa.roundcc
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Chikuwa
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: ./debs/com.chikuwa.roundcc_0.0.1-1_iphoneos-arm.deb
+Size: 2962
+MD5sum: 2ae84e6558862f4b3a2db8309a2d7068
+SHA1: 6048e4af67197b455b27838ec8089d594309517a
+SHA256: 893a9cf40844634232d92ba88d720b579b4e609a66a9aff2da0962e4219c770c
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Chikuwa
+Name: RoundCC
 
 Package: com.chpwn.weeloader
 Version: 1.4-4
@@ -13528,6 +15073,23 @@ Depiction: https://chariz.com/get/yougroupsettings
 Icon: https://img.chariz.cloud/icon/yougroupsettings/icon@3x.png
 Name: YouGroupSettings
 
+Package: com.randy420.crackerxipatch
+Version: 4.2.5
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate, cydia.com.ipc.crackerxi | xyz.cypwn.crackerxi
+Filename: ./debs/CrackerXI.deb
+Size: 4926
+MD5sum: 3df83c21bd5a416f1b035b8b8cf26f86
+SHA1: 7b03c7e2993b6fcbfa7edf0f437ecbf9f49408a1
+SHA256: b02fa5e0ccc9a562cc059f5f04078df28fe00be9e4bb00205b73d8bf7c5ca949
+Section: Tweaks
+Description: ***Alphabetically order the applications. It's stupid this wasn't a thought in the first place.***
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/CrackerXI.html
+Name: CrackerXI+ Patch
+
 Package: com.rbt.useragentchanger
 Version: 1.1.10
 Architecture: iphoneos-arm
@@ -13546,6 +15108,25 @@ Author: rbt <rbt@rtapps.de>
 Depiction: http://modmyi.com/info/useragentchanger.d.php
 Name: User Agent Changer
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.skitty.dune
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 1028
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.skitty.dune_1.2.1_iphoneos-arm.deb
+Size: 548296
+MD5sum: f57ddcffba67ee0e24856283c3a20a47
+SHA1: 7be9d3f15096b344a49528918192dd9d13910535
+SHA256: 55b99fe33a4f2d98fbc06f2834a2e8f758a99c013b8040e377f587b083dc5830
+Section: Tweaks
+Description: A free, open-source iOS dark mode.
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=com.skitty.dune
+Icon: https://skitty.xyz/repo/icons/com.skitty.dune.png
+Name: Dune
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=com.skitty.dune
 
 Package: com.skyglow.itunesstorex
 Version: 2.5
@@ -13781,6 +15362,22 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
 Dev: carsten
 Name: iFile
 
+Package: in.evilpengu.alarmy
+Version: 0.8.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: James Emrich (EvilPenguin)
+Installed-Size: 144
+Depends: firmware (>= 9), mobilesubstrate
+Filename: ./debs/in.evilpengu.alarmy_0.8.0-1+debug_iphoneos-arm.deb
+Size: 13314
+MD5sum: afe138bd0c1a3274f212f488e81e662b
+SHA1: 77a2a20d4758659203c1adcc6a447639fd631c73
+SHA256: b739dcdc6d2b4deb290bafd8a9f4efb642f79ca1db018532aaf14b3112b5b867
+Section: Tweaks
+Description: An alarm tweak that allows you to choose snooze intervals!
+Author: James Emrich (EvilPenguin)
+Name: Alarmy
+
 Package: jp.ashikase.techsupport
 Version: 1.5.0.1-2
 Architecture: iphoneos-arm
@@ -13864,6 +15461,22 @@ Dev: rpetrich
 Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
 Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: libskittycolor
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 204
+Filename: ./debs/libskittycolor_1.0_iphoneos-arm64.deb
+Size: 22418
+MD5sum: 35149956e98e904274a00a83c9cc6e31
+SHA1: 02568f5c6de443a2321f8e3f1f3db990e2252f5e
+SHA256: a5f5b1999adacd469effc9f41c20167a7f014a107b0cb3386099c2f5ebb42492
+Section: System
+Description: A simple color picker implementation.
+Tag: role::developer
+Author: Skitty
+Name: libskittycolor
 
 Package: me.apptapp.installer
 Version: 5.0.3-2
@@ -14639,6 +16252,41 @@ Author: docmorelli <apps@hackulo.us>
 Name: Hackulous Resources
 Sponsor: Hackulo.us <http://hackulo.us>
 
+Package: us.nakedproductions.cleanstatus
+Version: 0.9.11-39
+Architecture: iphoneos-arm
+Maintainer: James Emrich (EvilPenguin)
+Installed-Size: 240
+Depends: mobilesubstrate, preferenceloader
+Replaces: us.nakedproductions.norotationstatus, com.adrian.noclockstatus
+Filename: ./debs/us.nakedproductions.cleanstatus_0.9.11-39_iphoneos-arm.deb
+Size: 45658
+MD5sum: 25fdd41b395ecd3885a1588aa55623cf
+SHA1: c36f46694860cd11cdd15a628b6fc1196459e375
+SHA256: db6c7a5697010bfb0206916509bee8f2652e101bce481b7888221dc4a2094b16
+Section: EvilPenguin
+Description: Native Statusbar Controller
+Author: James Emrich (EvilPenguin)
+Name: CleanStatus
+
+Package: wallpaperloader
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/wallpaperloader_1.1.1_iphoneos-arm.deb
+Size: 11644
+MD5sum: 0d2ec14a603503f9689b469e6008513e
+SHA1: 621a92f632f802a77f1805fb1d96f96822399f4d
+SHA256: 91409f53a3715397d0eb7a8204943589609b910c57c363f4797845ec66dfcdec
+Section: Tweaks
+Description: Add more default wallpapers!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/wallpaperloader
+Name: WallpaperLoader
+Sileodepiction: https://skitty.xyz/repo/depictions/wallpaperloader/sileo.json
+
 Package: wiki.qaq.qqhdloginfix
 Version: 1.0
 Architecture: iphoneos-arm
@@ -14695,6 +16343,286 @@ Section: Tweaks
 Description: Custom System Sounds for iOS 13 and 14!
 Author: Nebbs
 Name: CustomSounds 2
+
+Package: xyz.skitty.darkshot
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 320
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/xyz.skitty.darkshot_1.0_iphoneos-arm.deb
+Size: 14528
+MD5sum: 1b6c270e18c0d496c520a63ced769d34
+SHA1: be7a68d7d370b18ffd1fd9e896307e11deaacc47
+SHA256: 1fdabdef60333af601b695879118b2beaa3b8913fa8385ab89593d907335078e
+Section: Tweaks
+Description: Darken the screenshot flash color!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.darkshot
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.darkshot.png
+Name: DarkShot
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.darkshot
+
+Package: xyz.skitty.dragenabler
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 288
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/xyz.skitty.dragenabler_1.0_iphoneos-arm.deb
+Size: 11304
+MD5sum: 06c6b3dfbcbf59aee695d820fec5bdb0
+SHA1: d9c2040873c3ed6593ce0d5432d4a6a4af55215b
+SHA256: 29c0e6af1af34bdccd2b13aee4164a902ff3bec0550e769e09050348ccca44f8
+Section: Tweaks
+Description: Enable iPad drag and drop features.
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.dragenabler
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.dragenabler.png
+Name: DragEnabler
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.dragenabler
+
+Package: xyz.skitty.ersatz
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 472
+Depends: mobilesubstrate
+Filename: ./debs/xyz.skitty.ersatz_1.0_iphoneos-arm.deb
+Size: 43658
+MD5sum: 619b741165c8eee728285f759f013a03
+SHA1: 6279f4ba8327abc09709eba6ad823ce392b80683
+SHA256: 6533edf1935f4efe8d365edbf0c9f790ebd56b09a860d92adea6db64df27959a
+Section: Tweaks
+Description: Replace any text, system-wide!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.ersatz
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.ersatz.png
+Name: Ersatz
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.ersatz
+
+Package: xyz.skitty.filzaplus
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 776
+Depends: mobilesubstrate, com.tigisoftware.filza | com.tigisoftware.filza64bit
+Filename: ./debs/xyz.skitty.filzaplus_1.0-1_iphoneos-arm.deb
+Size: 237506
+MD5sum: 99781a0ee3e6569667fcf65bb9c8bec8
+SHA1: 62e499098cb2e13d0ed7d543f1f1d9b6ac5826d0
+SHA256: 79ddb33d97d96ba46aa9c8482cfaa7f2783a63ff63df8a3532abcbadd5776067
+Section: Tweaks
+Description: Turn Filza into a code editor.
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.filzaplus
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.filzaplus.png
+Name: FilzaPlus
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.filzaplus
+
+Package: xyz.skitty.lightsout
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 424
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/xyz.skitty.lightsout_1.1_iphoneos-arm64.deb
+Size: 56084
+MD5sum: 1af7fb94b7e6c8b3699bf1443e5fcd48
+SHA1: 63df6562ef4590d08c057424a39bd5b8720bd5ba
+SHA256: 7ebed1d1ee7632233fd0b2e29b2ec760040d41ca4538719e2ba453579a3c1fb4
+Section: Tweaks
+Description: Toggle dark mode/night shift with the light sensor!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.lightsout/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.lightsout.png
+Name: LightsOut
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.lightsout/sileo.json
+
+Package: xyz.skitty.livesafari
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 260
+Depends: mobilesubstrate
+Filename: ./debs/xyz.skitty.livesafari_1.0.2_iphoneos-arm.deb
+Size: 56396
+MD5sum: 1130f1b2dc902fb9704ed0124d6db757
+SHA1: cf46c643cc00abebb5d76845054c6e95c491998f
+SHA256: daf16470b9d0f9987d87d6f799929d096b06f701501873f2313ad4e27afbdca6
+Section: Tweaks
+Description: Make Safari's icon point north
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.livesafari/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.livesafari.png
+Name: LiveSafari
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.livesafari/sileo.json
+
+Package: xyz.skitty.morecomplications
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 416
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/xyz.skitty.morecomplications_1.0_iphoneos-arm64.deb
+Size: 38920
+MD5sum: a836a7a817cf21df407518f743b9dea7
+SHA1: 0723c0908243712812ae779ac08c8666d5e94a30
+SHA256: 830d2a0d61d52321313ccb2f396e21a2134a2bc1720c09c4f7809446ead29eda
+Section: Tweaks
+Description: Add more complications to your Lock Screen.
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.morecomplications/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.morecomplications.png
+Name: MoreComplications
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.morecomplications/sileo.json
+
+Package: xyz.skitty.pokebox
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/xyz.skitty.pokebox_1.0.1_iphoneos-arm.deb
+Size: 66318
+MD5sum: 41b923d2cec89b6c0b17c574e65053f7
+SHA1: 19da4e6938135e0edd39ac73f3390d70852e66f8
+SHA256: f2df538fb4798395a21a9ee9083a4b80dfa7ab7880b4caa9c8dc632881df66e6
+Section: Tweaks
+Description: Pokémon style notifications!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.pokebox
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.pokebox.png
+Name: Pokébox
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.pokebox
+
+Package: xyz.skitty.quietdown
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 432
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/xyz.skitty.quietdown_1.1.2_iphoneos-arm64.deb
+Size: 44068
+MD5sum: 1672b9f649378e68076e88b8df0cb273
+SHA1: 25f67fa1e00c1202056d735a2ad6dd093e296552
+SHA256: daaf0c47efebe15e73649e33935673c2a119ac14afcb9ca02d1ad8818afd68af
+Section: Tweaks
+Description: Mute Notifications for Time Periods
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
+Name: QuietDown
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/sileo.json
+
+Package: xyz.skitty.sixls
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 2260
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/xyz.skitty.sixls_1.1_iphoneos-arm64.deb
+Size: 1472466
+MD5sum: 04bdd7050ac79bc771625c6137826de7
+SHA1: d019ff837c8ece5a45426ca161b542ad234321c1
+SHA256: feece7d25888ce5081fad0ad3545f9fbdc3af3d7ebe59b714e3a0cbe1a1edfce
+Section: Tweaks
+Description: iOS 6 Style Lock Screen!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
+Name: Six (LS)
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls/sileo.json
+
+Package: xyz.skitty.spectrum
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 580
+Depends: mobilesubstrate, libskittycolor, firmware (>= 13.0)
+Filename: ./debs/xyz.skitty.spectrum_1.1_iphoneos-arm64.deb
+Size: 60814
+MD5sum: 1fb3cad655bbd4f831af4eb3b0384f80
+SHA1: d7783f337ed583c0a4603592f1e8b7cef51b31e9
+SHA256: 4749d93c697b70ad9a87c1489e6c8509570d5d428be58b7abb5ca65b05988e77
+Section: Tweaks
+Description: Customize system colors!
+Author: Skitty & EvenDev
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.spectrum/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.spectrum.png
+Name: Spectrum
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.spectrum/sileo.json
+
+Package: xyz.skitty.stonks
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/xyz.skitty.stonks_1.0_iphoneos-arm.deb
+Size: 5880
+MD5sum: ad612fb8f921c5c3c5149f201762a5be
+SHA1: 4112486f50689f6f34df26a49b2515ee3c7ac31f
+SHA256: f1ebf1c2e90573f05eb6ebfefd12833d44ffa3fcdeb142c7a39ecd836c2b7719
+Section: Tweaks
+Description: Change all "Stocks" text to "Stonks"
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.stonks
+Name: Stonks
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.stonks
+
+Package: xyz.skitty.strangerwp
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Depends: mobilesubstrate, wallpaperloader
+Filename: ./debs/xyz.skitty.strangerwp_1.0_iphoneos-arm.deb
+Size: 12331640
+MD5sum: e375719662f53593d0ea018236cec510
+SHA1: e9fb71057771c2e8c10533be36fbd40e790b8014
+SHA256: dd32ec72fb8cce1010de7353625876f630a3c67c86106a7c5ee7ba40610eb887
+Section: Wallpaper
+Description: A dark/light Stranger Things wallpaper.
+Author: Skitty
+Name: Stranger Things Wallpaper
+
+Package: xyz.skitty.sushi
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 704
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/xyz.skitty.sushi_1.0.1_iphoneos-arm64.deb
+Size: 119406
+MD5sum: c028e8038d8af0abdb9ce2e86a7fcfef
+SHA1: 7f6265b7bb185028d2cb142cdae65017383b7ad7
+SHA256: 9b6b1be3c11ef3083a0350e0ebf180fc92513f85ff3187fbb01f9852bc1bfe14
+Section: Tweaks
+Description: Now playing banner with integrated media controls!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sushi/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
+Name: Sushi
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.sushi/sileo.json
+
+Package: xyz.skitty.wplprefs
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 188
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/xyz.skitty.wplprefs_1.0_iphoneos-arm.deb
+Size: 15194
+MD5sum: dc305b3b94efa939dd4a32669dab96d2
+SHA1: 5c8b7d8f5111442aafc83531fe483979fda01008
+SHA256: 5d5a4710e06d8c2a72d46f28ee6523088c7c76605962d7e8fc09754fcae8c95a
+Section: Utilities
+Description: Easily change dark/light wallpaper
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.wplprefs
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.wplprefs.png
+Name: WallpaperLoader (Prefs)
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.wplprefs
 
 Package: xyz.willy.zebra
 Version: 1.1.36
