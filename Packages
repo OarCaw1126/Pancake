@@ -1,3 +1,21 @@
+Package: Flex3beta
+Version: 1:3~Beta98
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3_3~Beta98.deb
+Size: 14346600
+MD5sum: 693c569e78f37e6d0e9c2e63287bc97e
+SHA1: c6b44a4c7ef73f7b68240775ee58f7591c14d2e4
+SHA256: 2b71e64db3e4b352ef73d54e76e0808bb122c614d97160bf5338b903d2d8f6a4
+Section: Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+
 Package: ai.akemi.appsyncunified
 Version: 116.0
 Architecture: iphoneos-arm
@@ -95,6 +113,24 @@ Dev: rpetrich
 Name: AppList
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
+Package: bag.skyglow.bluetweety
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Requis, bag.xml
+Installed-Size: 948
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/bag.skyglow.bluetweety_1.0_iphoneos-arm.deb
+Size: 111010
+MD5sum: f32c4f1b3f728762ccb997ef62e4656e
+SHA1: 24d850223ca9966304324344d5c33164bc237c1e
+SHA256: baadc0ab0c67762ee605068e111e87776dffa05ea6e8209315b0d7a4fd3faa72
+Section: Tweaks
+Description: Fix the iOS integration with Twitter across the system, as well as the Twitter app.
+Author: Requis, bag.xml
+Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
+Name: BlueTweety
+
 Package: bag.xml.tuberepair
 Version: 1.1-Beta-2
 Architecture: iphoneos-arm
@@ -166,6 +202,123 @@ Section: EvilPenguin
 Description: An awesome MobileSubstrate tweak!
 Author: James Emrich (EvilPenguin)
 Name: SBIconSize
+
+Package: ch.mdaus.artsy
+Version: 2.0~Beta.8
+Architecture: iphoneos-arm
+Maintainer: Max Dausch <max.dausch@gmail.com>
+Installed-Size: 1880
+Depends: mobilesubstrate, ch.mdaus.utils
+Filename: ./debs/ch.mdaus.artsy_2.0~Beta.8_iphoneos-arm.deb
+Size: 652882
+MD5sum: 7be11301bad37b357502692c47eea94e
+SHA1: 42576869acba01c22ad3a471b5f1c344b854ee90
+SHA256: da50939a7e40909cf592a018fbe3344a2276f4bb79ce8ff704694c006ffb101d
+Section: Tweaks
+Description: Color your music stuff
+Author: Max Dausch <max.dausch@gmail.com>
+Depiction: http://repo.daus.ch/depictions/?p=ch.mdaus.artsy
+Name: Artsy
+
+Package: ch.mdaus.homeless
+Version: 0.0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 1664
+Depends: mobilesubstrate
+Filename: ./debs/ch.mdaus.homeless_0.0.2-.deb
+Size: 122780
+MD5sum: aeffa79cd230ee11161170b174ee9b31
+SHA1: acc688f03753859d51e83842f9fc17091f9d30a1
+SHA256: b09307df811b201df794bf3125cfa84419af9f6066ddc2e77f69688de8e62fda
+Section: Tweaks
+Description: Hide various UI elements
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: http://mdaus.ch/repo/depictions/?p=ch.mdaus.homeless
+Name: Homeless
+
+Package: ch.mdaus.latchkey
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 13440
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/ch.mdaus.latchkey_2.3_iphoneos-arm.deb
+Size: 6459320
+MD5sum: 9cd1b7f2864c915aebeb913ec4c1a56e
+SHA1: ee567c1677847426899a74909e7d0ba7e04790bd
+SHA256: 7f13d22f44cd36daa251316a16afa9d6f029efb82d5fb94c23ec6ceda23c0b09
+Section: Tweaks
+Description: Move and theme the Face-ID lock glyph
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: https://repo.daus.ch/depictions/?p=ch.mdaus.latchkey
+Name: LatchKey
+
+Package: ch.mdaus.palette
+Version: 0.6-1+debug
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 716
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/ch.mdaus.palette_0.6-1+debug_iphoneos-arm.deb
+Size: 402580
+MD5sum: 262dce88d136dde0f7af2da3a124a255
+SHA1: 8c578820168708f7278d50451e1829834badf97e
+SHA256: df68821cf343a0a2c455c18531285e7d27956e05ba29502a77ecf3d4a2268a78
+Section: Tweaks
+Description: Color app notifications based off of average icon color
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: http://mdaus.ch/repo/depictions/?p=ch.mdaus.palette
+Name: Palette
+
+Package: ch.mdaus.spotifyfullalbumart
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/ch.mdaus.spotifyfullalbumart_0.0.1_iphoneos-arm.deb
+Size: 2350
+MD5sum: ebf474473600d6ad729f13575ef01bc3
+SHA1: 0451962a0e49e1beb3e7c9de02708b8d57625743
+SHA256: 88bdf2c710177f897a7ea9be8fbee603758d5ea3369e3fb9793d45b837534cf3
+Section: Tweaks
+Description: Fix the nasty border spotify adds to the now playing album art. Tested on Spotify V 8.5.0.833
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Name: SpotifyFullAlbumArt
+
+Package: ch.mdaus.sylph
+Version: 1.3~Beta.1
+Architecture: iphoneos-arm
+Maintainer: Max Dausch <max.dausch@gmail.com>
+Installed-Size: 400
+Depends: mobilesubstrate, ch.mdaus.utils (>= 0.0.4)
+Filename: ./debs/ch.mdaus.sylph_1.3~Beta.1_iphoneos-arm.deb
+Size: 72262
+MD5sum: 93bf285b77c3ceefd518556529f85aa7
+SHA1: 80654e2ce4cb590eca01fba1d0ce3ed421b09fc3
+SHA256: f6ad90a74003c529b0132da62fd5d50435a622482e8a8f44c144217aabb97318
+Section: Tweaks
+Description: Customize your LS music player
+Author: Max Dausch <max.dausch@gmail.com>
+Depiction: http://repo.daus.ch/depictions/?p=ch.mdaus.sylph
+Name: Sylph
+
+Package: ch.mdaus.utils
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 236
+Filename: ./debs/ch.mdaus.utils_0.0.4_iphoneos-arm.deb
+Size: 13304
+MD5sum: c9e92bdaa35583767938a7b9dac53fae
+SHA1: 2eea9c551eb3fa660a54b06fb49f67cdc754c37c
+SHA256: 30ed3901941278ee5e0521a8c2815a0432a3ba12d6e101614dec93fc1b195eac
+Section: System
+Description: A collection of common functions for my tweaks. More documentation will be coming soon.
+Tag: role::developer
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Name: MDausch Utils
 
 Package: cokepokes.crash-reporter
 Version: 1.16.0-7
@@ -10339,6 +10492,22 @@ Author: Wraith
 Depiction: http://cydia.zodttd.com/repo/cydia/debs20/tesu/depiction/locomulti/index.php
 Name: LocoRoco Game Ringtone Pack
 
+Package: com.bagxml.storelayoutsfix
+Version: 1.0-3+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 76
+Depends: mobilesubstrate, firmware(<==6)
+Filename: ./debs/com.bagxml.storelayoutsfix_1.0-3+debug_iphoneos-arm.deb
+Size: 6250
+MD5sum: 9d3e9ea60a02813ff706c53f6ffc89c4
+SHA1: 1faa80c6e802c57f923b723036605d8cc6ac2287
+SHA256: fd0a5835ba882d7333259ccc94b8a0bb4d37f222bed5618726dfb63ffc027a6f
+Section: Tweaks
+Description: This tweak fixes current layout problems with the iTunes Store, and any other app that depends on it. Mostly used on iOS 6, can also fix iOS 6 era Podcasts and iBooks running on 7.x.
+Author: bag.xml, Requis
+Name: StoreLayoutsFix [BETA]
+
 Package: com.bd452.bypass
 Version: 2.0.0-1
 Architecture: iphoneos-arm
@@ -12581,6 +12750,38 @@ Author: Genius Blog <admin@hackulo.us>
 Depiction: http://hackulo.us/depict/sourcegui
 Name: Source GUI
 Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: com.iOSHacker.Crayon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iOSHacker <Logan@iOSHacker.com>
+Filename: ./debs/com.ioshacker.crayon_1.0_iphoneos-arm.deb
+Size: 1178356
+MD5sum: 370e56b8a1acb49d1f7a22a9fcc6822c
+SHA1: c78bcbe6fd1463649730ee08d26815a2427f39bf
+SHA256: a4d9e1311fcaaf689364aaed6799d817a0839e982475164706b71e301e21f485
+Section: Themes
+Homepage: http://www.ioshacker.com
+Description: Crayon a fun, free theme for everyone and every device to enjoy.
+Author: Bluntpox <Bluntbox@Gmail.com>
+Depiction: http://ioshacker.github.io/Depic/com.iOSHacker.Crayon/index.html
+Name: Crayon
+
+Package: com.iOSHacker.DynamiciOSHacker
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iOSHacker <Jeff@ioshacker.com>
+Filename: ./debs/com.ioshacker.dynamicioshacker_1.0_iphoneos-arm.deb
+Size: 1270602
+MD5sum: 0136be8df0fecc4c6726710d32e018fc
+SHA1: 9ca8393a14c5cc908ede9d79c95b84dbc4d7cce1
+SHA256: 29e5e955af840942137bcf56c424dfe9586bb5d75210c54d4f73e98f6c978a42
+Section: Themes (Minor)
+Homepage: http://www.ioshacker.com
+Description: Dynamic iOSHacker logos as your wallpaper!
+Author: Polar Hacker <polarhacker@icloud.com>
+Depiction: http://ioshacker.github.io/Depic/com.iOSHacker.DynamiciOSHacker/index.html
+Name: Dynamic iOSHacker
 
 Package: com.iphonecake.appcake2.ios6
 Version: 4.59
@@ -14870,6 +15071,131 @@ Description: Blackbox tool to disable SSL certificate validation - including cer
 Author: Alban Diquet <nabla.c0d3@gmail.com>
 Name: SSL Kill Switch 2
 
+Package: com.nathanaccidentally.boxification
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: nathanaccidentally
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/boxification.deb
+Size: 4326
+MD5sum: 4571028a4fdb0fe17ca47a4cbb625310
+SHA1: a2dd2d3a1eba5f541e71a6e36e594fda13de47c5
+SHA256: 3bee5892d19aeeceaf6fb8e76eeaa584a6be36e389d745f552712285806edb35
+Section: Tweaks
+Description: Box those notifications!
+Author: nathanaccidentally
+Name: Boxification
+
+Package: com.nathanaccidentally.colorbubble
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: nathanaccidentally <nathanaccidentally@gmail.com>
+Filename: ./debs/colorbubble.deb
+Size: 2615276
+MD5sum: e3dcd2bd4bc5a06b7479923334a7a126
+SHA1: 9107cb1c9607fcb78b03272b1cfe6581e5011247
+SHA256: 0d5397a87ff1b63245dafdc2700e8af44f199b4bde57af54e16fee1ece099b05
+Section: Themes
+Description: A flat and simple theme for minimalists.
+Author: nathanaccidentally <nathanaccidentally@gmail.com>
+Name: ColorBubble Beta Five
+
+Package: com.nathanaccidentally.longermessage
+Version: 0.0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: nathanaccidentally
+Installed-Size: 248
+Depends: mobilesubstrate
+Filename: ./debs/longermessage10.deb
+Size: 10348
+MD5sum: 49a4c327c2c837a36060ff3af74cabf5
+SHA1: 02a0c6b9cc338e2ceaa1962196e348c68f0b539b
+SHA256: 9079aeaadcf51803086e5afa761b1e02ec73a0b016ebb1a473ba6537588c8b3f
+Section: Tweaks
+Description: Change NC line amount.
+Author: nathanaccidentally
+Name: LongerMessage10
+
+Package: com.nathanaccidentally.material
+Version: 0.2-1-2+debug
+Architecture: iphoneos-arm
+Maintainer: nathanaccidentally <nathanaccidentally@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/material.deb
+Size: 6574
+MD5sum: 22e162952aa7315f8a2a6a1422f123e1
+SHA1: 6329cc9a485da67a398d96c9b43edb2d51e0a37a
+SHA256: 49fa0ecbd941676ce5896b7b408b1846dc4aa06e9ba23a5b967c839c7624ea90
+Section: Tweaks
+Description: Make notifications better-ish again!
+Author: nathanaccidentally <nathanaccidentally@gmail.com>
+Name: Material
+
+Package: com.nathanaccidentally.mdnsflush
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: nathanaccidentally <nathanaccidentally@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Filename: ./debs/mdnsflush.deb
+Size: 1484
+MD5sum: aa20b226ac85a1cae471aa4ab3a2798f
+SHA1: f3737112673ee7408adb4ae27f2cadf777f139a7
+SHA256: 7a4b4322ee83f3f962f8aeffef1707cf06860db33d16b40d6f0ef2e2de8d8071
+Section: System
+Description: A system package for refreshing mDNSResponder.
+Author: nathanaccidentally <nathanaccidentally@gmail.com>
+Name: mDNSFlush
+
+Package: com.nathanaccidentally.springblocks
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: nathanaccidentally <nathanaccidentally@gmail.com>
+Pre-Depends: com.matchstic.xenhtml, com.matchstic.infostats2
+Filename: ./debs/springblocks.deb
+Size: 4916
+MD5sum: 574a8cc3849ea9b5a0918bcb4ac8631e
+SHA1: 59acb527fdc5b596350d889954f2645b9eebc5c1
+SHA256: 886c6fff9b2664bd30d79e47a04d936252106b86ce3eee82ecde6787130a8c91
+Section: Tweaks
+Description: Helpful blocks for Xen HTML
+Author: nathanaccidentally <nathanaccidentally@gmail.com>
+Name: SpringBlocks
+
+Package: com.nathanaccidentally.systemhostsblocker
+Version: 1.4.2-1
+Architecture: iphoneos-arm
+Maintainer: nathanaccidentally <nathanaccidentally@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: com.nathanaccidentally.mdnsflush, sudo
+Filename: ./debs/systemhostsblocker.deb
+Size: 18294
+MD5sum: 1d24325b3d708e111bc172d932d6b35f
+SHA1: 7febd888dac1960755e6bcc9187e45e5263a6ced
+SHA256: 9914e21f79b3abd8b9fbdd4006bd8c0bd657ed936737d94479451beefa0448d3
+Section: Tweaks
+Description: A fast and lightweight ad blocker.
+Author: nathanaccidentally <nathanaccidentally@gmail.com>
+Depiction: https://nathanaccidentally.github.io/depic/systemhosts/index.html
+Name: System Hosts Blocker
+
+Package: com.nathanaccidentally.unleashdiscord
+Version: 1.0-2+debug
+Architecture: iphoneos-arm
+Maintainer: nathanaccidentally <nathanaccidentally@gmail.com>
+Installed-Size: 124
+Depends: mobilesubstrate
+Filename: ./debs/unleashdiscord.deb
+Size: 7434
+MD5sum: 17f361bc082f4cccb731a635b8b1ba1e
+SHA1: e7c4a173aaa457002752021c8818bd7fec5b71ad
+SHA256: 9f30fbb1fd10c97fe1808464cc5e04846ffefcb85e5bde9f9e04e4ac5a675881
+Section: Tweaks
+Description: Add the Discord color palette to the Settings app!
+Author: nathanaccidentally <nathanaccidentally@gmail.com>
+Name: UnleashDiscord
+
 Package: com.opa334.libundirect
 Version: 1.1.6
 Architecture: iphoneos-arm
@@ -15108,6 +15434,77 @@ Author: rbt <rbt@rtapps.de>
 Depiction: http://modmyi.com/info/useragentchanger.d.php
 Name: User Agent Changer
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.simple.VHStext
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Bluetr00p
+Filename: ./debs/VHStext.deb
+Size: 91150
+MD5sum: 18476c3df8032599334d874b4b39ead3
+SHA1: 8c6270136d0049431362984490828432e22d9056
+SHA256: d58a3520d903c1ad80c9ae8701b8c7a294ebcb5d5191b6154fb17d739fe7b5b1
+Section: Themes
+Homepage: "lukaswerner.com'
+Description: VHS text based on a r/iostweaks request
+Author: Bluetr00p
+Depiction: https://bluetr00p.github.io/repo/depictions/?p=VHStext
+Name: VHStext
+Sponsor: Simple
+
+Package: com.simple.welocalize.qaTools
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: Bluetr00p <program4cool@gmail.com>
+Depends: firmware (>= 11.0)
+Filename: ./debs/Welocalize.deb
+Size: 898
+MD5sum: 712090b43a5946bbff74cc23fe4ca0ea
+SHA1: 6de70f8c0f94ff8e6b4302314718b45b95c8321a
+SHA256: dbfc87e396bf1bf649360269ab719aaa76500234cba717dfd4dd78a0cbcf6d66
+Section: Welocalize
+Homepage: "lukaswerner.com'
+Description: A tool list to preinstall all tools needed for Welocalize
+Author: Bluetr00p <program4cool@gmail.com>
+Depiction: https://bluetr00p.github.io/repo/depictions/?p=Welocalize
+Name: Welocalize QA tools
+Sponsor: Simple LLC
+
+Package: com.simplellc.PixelCharge
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Bluetr00p
+Depends: com.junesiphone.xeninfo
+Filename: ./debs/PixelCharge.deb
+Size: 74334
+MD5sum: f39c6bc653b04fb82993a0c54a3b661e
+SHA1: bdab620ed078f571c20829e254e4f0fcf9d1e9e4
+SHA256: 765c46f90cb7b6030825b6a6b11e33e7e5c9468fde0552282a977273ea7c1007
+Section: Pixel Themes
+Homepage: "lukaswerner.com'
+Description: A Google Pixel 2 charger plus icons
+Author: Bluetr00p
+Depiction: https://bluetr00p.github.io/repo/depictions/?p=PixelCharge
+Name: PixelCharge
+Sponsor: Simple LLC
+
+Package: com.simplellc.PixelLock
+Version: 1.0.0-4
+Architecture: iphoneos-arm
+Maintainer: Bluetr00p
+Depends: com.matchstic.xenhtml
+Filename: ./debs/PixelLock.deb
+Size: 182242
+MD5sum: 04f8f64386ba315aab1d8f4fb09f3bca
+SHA1: f9c56193cc55780ed598d372f58d0fd3b773ea44
+SHA256: cd58065e18348fe544b041e0348bbf0a054d556d7228c2e82ab56febd9192538
+Section: Themes
+Homepage: "lukaswerner.com'
+Description: A Google Pixel 2 lock screen theme for ios
+Author: Bluetr00p
+Depiction: https://bluetr00p.github.io/repo/depictions/?p=PixelLock
+Name: PixelLock
+Sponsor: Simple LLC
 
 Package: com.skitty.dune
 Version: 1.2.1
@@ -15495,6 +15892,30 @@ Depiction: https://apptapp.me/repo/installer.html
 Icon: https://synnygr.dev/AppTapp/installer_icon.png
 Name: Installer
 Sileodepiction: https://apptapp.me/repo/installer.json
+
+Package: me.autotouch.autotouch.ios8
+Version: 3.6.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 9421
+Depends: firmware (>= 8.0), mobilesubstrate (>=0.9.5000), libactivator, applist (>= 1.4.1)
+Conflicts: me.autotouch.autotouch.ios7
+Filename: ./debs/me.autotouch.autotouch.ios8_v3.6.1-1_iphoneos-arm_julioverne.deb
+Size: 3190414
+MD5sum: 1edc7a3f362fc9d79c91d33e50a3fd62
+SHA1: a9114b6d837d835591abaa12b615b64ba67bd381
+SHA256: 62f66909be7d93f8db23f0e1281a1691b362e5a28e4d9adacf129094eca2edb4
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=autotouch8Dp
+Description: record and playback touch operations
+Tag: purpose::extension, compatible::ios8, compatible::ios9
+Author: Kent Krantz <kentkrantz@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=autotouch8Dp
+Dev: kentkrantz
+Icon: file:///Applications/AutoTouch.app/AppIcon29x29@2x.png
+Name: AutoTouch
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.nekokawa.antennacustomizer
 Version: 0.3.1-3+debug
