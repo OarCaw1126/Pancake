@@ -11042,6 +11042,82 @@ Author: andydam
 Depiction: http://andydam.com/repo/appcrackrinfo
 Name: AppCrackr
 
+Package: com.aoi.storefix
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: aoi_satou
+Depends: firmware  (<= 6.1.6)
+Conflicts: com.aoi.storefix
+Filename: ./debs/a.deb
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Depiction: http://aoiblog.jp/appstorefix_history.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.aoi.storefix
+Version: 1.0-7
+Architecture: iphoneos-arm
+Maintainer: satou@aoiblog.jp
+Depends: firmware  (<= 6.1.6) ,net.nekokawa.appstorefix ,uk.invoxiplaygames.checkmatestore ,com.innoying.sbutils
+Conflicts: com.aoi.storefix
+Filename: ./debs/te.deb
+Size: 1512
+MD5sum: c3182d4dc9df2c63fe4ec44c6a9949b5
+SHA1: 123cbd1cb54b56e4032f45b30543a0a4156951dd
+SHA256: da5aaca8b0ca06ded50cc6fc975304972fc93a4efb309ba8e33da69ad4e73866
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: satou@aoiblog.jp
+Depiction: http://aoiblog.jp/appstorefix_history2.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.aoi.storefix
+Version: 1.0-8
+Architecture: iphoneos-arm
+Maintainer: satou@aoiblog.jp
+Depends: firmware (<< 6.0) ,net.nekokawa.storeloginfix ,uk.invoxiplaygames.checkmatestore ,com.innoying.sbutils
+Conflicts: com.aoi.storefix
+Filename: ./debs/ios5.deb
+Size: 1442
+MD5sum: 38c46501aa1a050904baa32fd235f634
+SHA1: 94e628535ed0ae668b3690422b15ea138a176c71
+SHA256: 58a2d821338abb5167d441c450ea75885c96d670042aa5f778446ae89181bf47
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: satou@aoiblog.jp
+Depiction: http://aoiblog.jp/repo/index.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.aoi.storefix6
+Version: 1.0-8
+Architecture: iphoneos-arm
+Maintainer: satou@aoiblog.jp
+Depends: firmware (>= 6.0), firmware (<< 7.0) ,net.nekokawa.appstorefix ,uk.invoxiplaygames.checkmatestore ,com.innoying.sbutils
+Conflicts: com.aoi.storefix6
+Filename: ./debs/ios6.deb
+Size: 1468
+MD5sum: 70a7f9433ddde88d794cfb6c8771e283
+SHA1: c4bb18b0209c2dd54a953906bc05e7fb71e99c7c
+SHA256: 7b1e3916c1bd7cbd2329c2cce3b733ae24aae68260bcc10e843f36ebeff8bb32
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: satou@aoiblog.jp
+Depiction: http://aoiblog.jp/repo/index_ios6.html
+Dev: aoi_satou
+Name: AppStoreFix(ios6)
+
 Package: com.applemod.curiosa
 Version: 0.9~beta1
 Architecture: iphoneos-arm
@@ -13526,6 +13602,22 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
 Name: libCSColorPicker
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
 
+Package: com.darlo770.folders
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Darlo770
+Depends: mobilesubstrate, firmware (>= 3.0)
+Filename: ./debs/iOS3Folders1.2_Darlo770.deb
+Size: 201470
+MD5sum: 13d439f54315ac4bba59b73071ed2064
+SHA1: 9f807f69f312191cdd800b2f3ba225d67cea2883
+SHA256: dd586bab2f006bc9d8e91c1da68d75311091d49331d7af2f7bfedce44e870a70
+Section: Tweaks
+Homepage: http://twitter.com/Darlo770
+Description: Version 1.1 onwards is a major overhaul compared to previous versions. Stability and performance improved. If you use iOS3 Multitasking, you will need to update it to 1.0.3 (fixes 'multitasking while a folder is open' bug)
+Name: iOS3 Folders
+Sponsor: Darlo770
+
 Package: com.darlo770.ios3folders
 Version: 1.0.4-2
 Architecture: iphoneos-arm
@@ -13572,6 +13664,38 @@ Section: Tweaks
 Homepage: http://twitter.com/Darlo770
 Description: Multitasking for iOS3 Beta.
 Name: iOS3 Multitasking
+Sponsor: Darlo770
+
+Package: com.darlo770.wallpaper
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Darlo770
+Depends: mobilesubstrate, firmware (>= 3.0)
+Filename: ./debs/iOS3_Set_Wallpaper_1.0.1-Darlo770.deb
+Size: 31466
+MD5sum: 5b06b62ff046ae52a200ea8092ceffc8
+SHA1: a5629143fd870748a2c8b392d1d6e955a57b8d40
+SHA256: a3b907eaee0a77e9c43c6bcdc6c13f83fb8dd7963494d0e68bf69be5c187bacb
+Section: Tweaks
+Homepage: http://twitter.com/Darlo770
+Description: This package will enable you to have SpringBoard wallpapers with the iOS 4 way of setting them. Also includes: icon shadows, white icon labels, dock label height correction, and iOS 4 reflective dock. All in a lightweight, efficient substrate.
+Name: iOS 3 Set Wallpaper
+Sponsor: Darlo770
+
+Package: com.darlo770.wallpaper
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Darlo770
+Depends: mobilesubstrate, firmware (>= 3.0)
+Filename: ./debs/iOS3Wallpaper1.0.2_Darlo770.deb
+Size: 37322
+MD5sum: 39af94772b46db785f93cdf7b81aca2e
+SHA1: d408b28ea3c9cbfe1ce99483b6315a4633929c18
+SHA256: 0cdd09191f6da488a5f338c2384f82276f872c47d897e667ef7df3ee321a6b8a
+Section: Tweaks
+Homepage: http://twitter.com/Darlo770
+Description: This package will enable you to have SpringBoard wallpapers with the iOS 4 way of setting them. Also includes: icon shadows, white icon labels, dock label height correction, and iOS 4 reflective dock. All in a lightweight, efficient substrate.
+Name: iOS 3 Wallpaper
 Sponsor: Darlo770
 
 Package: com.dpkgdan.powertap
@@ -13628,6 +13752,22 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: fem67
 Name: LegacyUI
+
+Package: com.google.drivex
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: u/spacesaver2000-1
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.google.drivex_1.0.0_iphoneos-arm.deb
+Size: 1994
+MD5sum: 5adf1bdebaad88b4337def10a622f709
+SHA1: eb6ac327af32aceb37b9aabf8e1c064be41859c3
+SHA256: bdd002a372cb55e30a319a18dad62e0325fed1b0419ae7b0c6890467a5ee5b15
+Section: Tweaks
+Description: Changes Drive's User-Agent enabling it to function on iOS 9!
+Author: u/spacesaver2000-1
+Name: DriveX
 
 Package: com.google.ios.youtube
 Version: 2.2.0
@@ -22872,6 +23012,23 @@ Description: Returns the classic YouTube app to iOS 6.
 Author: InvoxiPlayGames
 Depiction: http://cydia.invoxiplaygames.uk/dp/youtube.php
 Name: Classic YouTube App
+
+Package: ultrasn0w
+Version: 1.2.8
+Architecture: iphoneos-arm
+Maintainer: Dev Team <blog@iphone-dev.org>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Filename: ./debs/ultrasn0w.deb
+Size: 15238
+MD5sum: 11be21a4d635cd8a9d68c81f2616fb03
+SHA1: d860e8717bd5e4d5253296c9fb2058ebcb227884
+SHA256: 287a9439a41e85336d38d45ff1560edf35d2aa09eeb14585c2e4a25328fe31b5
+Section: Utilities
+Homepage: http://ultrasn0w.com/
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Author: Dev Team <blog@iphone-dev.org>
+Name: ultrasn0w
 
 Package: us.hackulo.appsync31
 Version: 1.0.1
