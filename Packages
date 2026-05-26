@@ -11399,6 +11399,24 @@ Icon: file:///Library/PreferenceBundles/rounddock.bundle/rounddock@2x.png
 Name: RoundDock
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.bvn.solsticer
+Version: 3.0.7K
+Architecture: iphoneos-arm
+Maintainer: Bvn repo
+Installed-Size: 65137
+Filename: ./debs/com.bvn.solsticer_3.0.7K_iphoneos-arm.deb
+Size: 61699416
+MD5sum: d3ade557a3d9ebb5fa48572c42e2f804
+SHA1: 597e1610ee907cee5fc50fd15196ed87df910c96
+SHA256: f27edd9e74fe41dbda83f1955fd6f05461ba54485550317350ba6f28e99762d4
+Section: Themes
+Description: Solstice Theme 3650 icons
+Author: Rifai <icons-requests@hotmail.com>
+Depiction: http://bvnsupport.github.io/infodeb/Html/solstice.html
+Icon: file:///Applications/Cydia.app/Sections/chudee1.png
+Name: Solstice Theme
+Sileodepiction: https://bvnsupport.github.io/sileodepictions/solstice.json
+
 Package: com.cabralcole.invertrespring
 Version: 1.0-2
 Architecture: iphoneos-arm
@@ -19631,6 +19649,63 @@ Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/M
 Name: MagSafe Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.trappledestek.cracktool4
+Version: 4.0~beta10b
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/cracktool4.deb
+Size: 2957368
+MD5sum: 1e970481fb7f3bd822139ec67b48ef71
+SHA1: 60bc8c193c60b8e7db4c3ff5192d37adfcdb0b97
+SHA256: 5fa584e9ee80a446a8c2cdab7b2f6681b3ece9cc2943fdea5243c5ac9dce818c
+Section: AD - Sistem
+Homepage: https://twitter.com/ijulioverne
+Description: Tek tıklamayla tweakleri lisanslayın
+Author: julioverne
+Depiction: https://repo.trappledestek.com/depictions/cracktool4/index.html
+Name: CrackTool4 (iOS 9 - 14)
+Sileodepiction: https://repo.trappledestek.com/depictions/cracktool4/index.php
+
+Package: com.trappledestek.customsounds2x
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: TRappleDestek
+Installed-Size: 6252
+Depends: mobilesubstrate, preferenceloader, firmware (>=15.0), ws.hbang.common (>=1.15), xyz.itznebbs.libnebbs, com.trappledestek.xinaa15 | xinaa15
+Replaces: xyz.tylerd3v.customsounds13
+Filename: ./debs/customsounds2x.deb
+Size: 3845306
+MD5sum: 17dfdbdb76261714c6613fdc60f2e7ca
+SHA1: 782497f0dabb75c525c58913fc7bf609902880ea
+SHA256: 25ee82783ef633c57cc060de97be3d487561b58a671be53ebb362b5ed8804193
+Section: AD - Tweak
+Description: Özel Sistem Sesleri. iOS 15 Xina için Sudo tarafından modifiye edilmiştir!
+Author: Nebbs
+Depiction: https://repo.trappledestek.com/depictions/customsounds2x/index.html
+Icon: https://repo.packix.com/media/xyz.itznebbs.customsounds2/icon.png
+Name: CustomSounds 2 X
+Sileodepiction: https://repo.trappledestek.com/depictions/customsounds2x/index.php
+
+Package: com.trappledestek.cydown
+Version: 7.1.2
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/cydown.deb
+Size: 4361118
+MD5sum: 13e4c5d56e5829e2316614c818a6fd3d
+SHA1: d10b30371bbd6a0427ded96c21694374445604d5
+SHA256: b16a3b8fa5f9ecb611d8540d8f52b5841c68c48d94258d75e25e68167b5ac81a
+Section: AD - TR Tweak
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia İndirme Yöneticisi ve Ekstra Özellikler!
+Author: julioverne <julioverne@me.com>
+Depiction: https://repo.trappledestek.com/depictions/cydown/index.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+Sileodepiction: https://repo.trappledestek.com/depictions/cydown/index.php
+
 Package: com.umttpz.xenterminal
 Version: 0.0.2
 Architecture: iphoneos-arm
@@ -22577,24 +22652,6 @@ Depiction: http://www.prouni.ru/if
 Icon: file:///Applications/iForecast.app/Icon.png
 Name: iForecast
 Sponsor: RipDev <http://www.ripdev.org/>
-
-Package: ru.rejail.localiapstore
-Version: 1.4-4
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 235
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Filename: ./debs/ru.rejail.localiapstore_1.4-4_iphoneos-arm.deb
-Size: 42188
-MD5sum: 32f556ef855ef19f661748a010cb8a21
-SHA1: 4aa66f07686d5fd3ad7c27b829b723d360da029f
-SHA256: 12a26a0af63e2d695414f3134f0897a19a387f167f3bfa599dd050fd39b2fefd
-Section: Tweaks
-Description: Взлом внутриигровых покупок
-Author: anondev
-Depiction: https://rejail.ru/depiction.php?file=localiapstore
-Name: LocalIAPStore
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=localiapstore
 
 Package: sudo
 Version: 1.6.9p12-4p
