@@ -65,6 +65,27 @@ Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
 Name: appinst (App Installer)
 
 Package: ai.akemi.appsyncunified
+Version: 110.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/nodelete-ai.akemi.appsyncunified.deb
+Size: 58440
+MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
+SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
+SHA256: fa97d20ecaab914c7d07fc17ff2f31c15d34b33a5eebc158cb2c83e8a7ec2abc
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: ai.akemi.appsyncunified
 Version: 116.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
@@ -11343,6 +11364,22 @@ Author: Alex <alex@hackers.nl>
 Name: Beer in the zoo
 Website: http://www.hackers.nl/
 
+Package: com.beyoip.install0us
+Version: 2.5.2.the.end
+Architecture: iphoneos-arm
+Maintainer: Ajeje <repo@beyouriphone.com>
+Filename: ./debs/install0us.app_2.5.2.the.end.deb
+Size: 686802
+MD5sum: 40d49ef6ee09e4abd796ac58530f783c
+SHA1: 4d2f6b1d2538ca5596fc7c3a05c341b289c36cde
+SHA256: 93cab002d15ee71f1063bfc71bd7f6f28730bbea51aacb4d52d92bf2e540239f
+Section: BeYoIP Apps
+Description: THE App to download/install your IPA!!
+Author: puy0
+Depiction: http://repo.beyouriphone.com/depiction.html
+Name: install0us
+Sponsor: Install0us <http://install0us.com>
+
 Package: com.boo.airport
 Version: 2.1
 Architecture: iphoneos-arm
@@ -13739,6 +13776,22 @@ Dev: dpkgdan
 Name: Power Tap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.eswick.harbor
+Version: 1.1.2-6+debug
+Architecture: iphoneos-arm
+Maintainer: names
+Installed-Size: 836
+Depends: mobilesubstrate
+Filename: ./debs/com.eswick.harbor_1.1.2-6+debug_iphoneos-arm.deb
+Size: 93444
+MD5sum: 7ef20e5f550825e6c13236a2fccfbd18
+SHA1: 390ec9e590b6f2a4fe866392d4f3450b2f394549
+SHA256: 267ee5ecb416433db102a36359f2488696ebae6c71445f5d5441ef781e241d8e
+Section: Tweaks
+Description: iPadOS-like dock using a modified Harbor base.
+Author: Evan Swick
+Name: iPadOS Dock - Harbor
+
 Package: com.fabius.utils
 Version: 0.0.1-38
 Architecture: iphoneos-arm
@@ -14632,6 +14685,55 @@ Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelo
 Name: Solid Glass 2
 Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.solidglass.json
 Tags: compatible_min::ios1.0, compatible_max::ios17.4
+
+Package: com.ixmoe.1pwn.Veteris
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync, moe.yzu.veterishelper
+Filename: ./debs/Veteris-v2.1.1.deb
+Size: 1950126
+MD5sum: d1b104bee17dd9505546ef6e91df438d
+SHA1: b6b519d0825dafc94754f0b642a683149e54e271
+SHA256: a40e926e9e702684df51ce35d12c9531954f9d0048eeca8c21939f5316408160
+Section: Utilities
+Homepage: http://1pwn.ixmoe.com/
+Description: A Client for the Veteris Server.
+Author: Electimon <electimon@gmail.com>
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+Name: Veteris
+
+Package: com.ixmoe.1pwn.ebayx
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: electimon
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ixmoe.1pwn.ebayx_1.0.0-1+debug_iphoneos-arm.deb
+Size: 2842
+MD5sum: d388cd0254c5c81b24455b6a52eb877b
+SHA1: 390e0271e53fa1ce361df14e443712bdd470d998
+SHA256: ff9fd4df95969e75e8b58b8dcc15fa11e64af0a759c891bc8439a566ad11f031
+Section: Tweaks
+Description: eBay killswitch disabler, Kot!
+Author: electimon
+Name: eBayX
+
+Package: com.ixmoe.1pwn.facetimefixer
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync
+Filename: ./debs/facetimefixer-v1.0.1.deb
+Size: 2058
+MD5sum: f585084e27b25c7062aa176ac68621ef
+SHA1: f5870724c3f16fe903c38d959810e7d52a490f4e
+SHA256: 0dd7e37e1a41e2d7092290622d424e08a4e73610b6e1434be26e6bbb45a2d22c
+Section: Utilities
+Homepage: http://1pwn.ixmoe.com/
+Description: Just kidding.
+Author: Electimon <electimon@gmail.com>
+Name: FaceTimeX
 
 Package: com.jamied360.ncsettings
 Version: 1.7.1
@@ -18284,6 +18386,40 @@ Author: @danzatt, @winocm, @xerub, @JonathanSeals, @axi0mX, @Apple, @comex, Rode
 Depiction: http://nyansatan.github.io/apt/depictions/dualbootstuff.html
 Name: dualbootstuff
 
+Package: com.nyathea.legacypatcher
+Version: 0.1.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: nyathea
+Installed-Size: 296
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.nyathea.twtlegacypatcher, com.nyathea.legacybird
+Filename: ./debs/TwitterLegacyPatcher_Rootful.deb
+Size: 21092
+MD5sum: 03cb1db165d89951e176a96aac49b102
+SHA1: baf937b3137013abb7416854825fffffe72c6bd6
+SHA256: 9425a4c5c689a3be67b52f4bad279d557ad97033236706311904a3650277afbb
+Section: Tweaks
+Description: Tweak to patch old twitter to work again
+Author: nyathea
+Name: TwitterLegacyPatcher
+
+Package: com.nyathea.legacypatcher
+Version: 0.1.1-2+debug
+Architecture: iphoneos-arm64
+Maintainer: nyathea
+Installed-Size: 296
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.nyathea.twtlegacypatcher, com.nyathea.legacybird
+Filename: ./debs/TwitterLegacyPatcher_Rootless.deb
+Size: 21202
+MD5sum: e5986d623fd64200ba305de826b54356
+SHA1: 4b9b7aa073eb5e1819e323c272724c106cc7e670
+SHA256: ae3d98a2cb3556d896d2abded60048782d685b0f8b6c4765e98d9bcee4224c28
+Section: Tweaks
+Description: Tweak to patch old twitter to work again
+Author: nyathea
+Name: TwitterLegacyPatcher
+
 Package: com.occipital.clearcam
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -19341,6 +19477,40 @@ Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depiction
 Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
 Name: iTunesStoreX
 
+Package: com.skyglow.stocksx
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate, firmware (>= 2.0), firmware (<= 7.2), com.skyglow.weatherx
+Conflicts: com.ixmoe.1pwn.stockx
+Filename: ./debs/StocksX.deb
+Size: 18640
+MD5sum: 2cc527709d172622ce444d6c2822dcdd
+SHA1: bcfdf0325e230b7fd4c109e93976cd5eca03e341
+SHA256: b6e084265211c1a4f1d685c397c5ae4f975eff1b6d6589592d929806fdfffdfe
+Section: Tweaks
+Description: Fix the stocks app from iPhoneOS 2 to iOS 7 by redirecting requests to my servers!
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.stocksx/depictions/index.html
+Name: StocksX
+
+Package: com.skyglow.weatherx
+Version: 3.3
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader, com.skyglow.stocksx
+Conflicts: com.ixmoe.1pwn.weatherx
+Filename: ./debs/WeatherX.deb
+Size: 84100
+MD5sum: a6261fcbcbe36290f4aaa25357744d9e
+SHA1: a6e6caabf056d05b8f961165123917e9eff9c846
+SHA256: c7648684aff258bfa831b2e7c317361dad7c300d24505367c622d8b84ef6d67b
+Section: Tweaks
+Description: Fix iOS's weather app from iPhoneOS 2 to iOS 7, the weather widget in the notification center, and the temperature in the iPad clock app!
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
+Name: WeatherX
+
 Package: com.sn0wcooder.enterkdfu
 Version: 1.0
 Architecture: iphoneos-arm
@@ -19402,6 +19572,25 @@ Size: 1565784
 MD5sum: 30b16a9c544aea0805f55f1111b4e0aa
 SHA1: 01d0c4400516bc326f76705eac28cc5bc9da859c
 SHA256: 3aa25faa61fc8939f950af1aa3b8de1f7493ee6e2837ab11fa3318a526af30b4
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
+Package: com.spark.snowboard
+Version: 1.4.7~Beta4
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 4892
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/snowboard_1.5.31-beta4.deb
+Size: 1563724
+MD5sum: a0b76bc673f1bbbae34d625a83991288
+SHA1: d57c58a00fd0cad2de1aaaa01cdd72301612519b
+SHA256: 9b974280ac0e3fff961fdc6341d178601e936d6ead51d28936dc9c43d96900c9
 Section: Tweaks
 Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
@@ -19759,6 +19948,233 @@ Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
 Author: UnlimApps Inc.
 Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
 Name: App Admin
+
+Package: com.victorlobe.fixmyfriends
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.fixmyfriends_1.0.0_iphoneos-arm.deb
+Size: 6658
+MD5sum: f79a45e61424d803c38e6ac699d566f9
+SHA1: f14db8d40246408d8427a3f42a3ca4eb712e204f
+SHA256: 7ced4677d184ebb7ebccc81347ba67c9d2b9b8d6381a335e977735b2df65e0b0
+Section: Tweaks
+Description: Fixes Find My Friends on iOS 5 and 6.
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.fixmyfriends
+Name: FixMyFriends
+
+Package: com.victorlobe.googlefix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.googlefix_1.0.0_iphoneos-arm.deb
+Size: 4146
+MD5sum: d3a6ba63594e091c60f41a4e6d152470
+SHA1: 9dfbf3086de984f82de41328576a6830ac35a0db
+SHA256: 2ca0581dc82195d42f06481dd93e15a9ed223e4e14e3c8d31e5576e25c953d95
+Section: Tweaks
+Description: Fixes Google on iOS 6
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.googlefix
+Name: GoogleFix
+
+Package: com.victorlobe.googlefix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.googlefix_1.0.1_iphoneos-arm.deb
+Size: 5386
+MD5sum: 838fcc8035820d7d8e44d7f49ca91554
+SHA1: 4152a62494b3e259701f3312cc8e9f7e80724db5
+SHA256: 8836dfe607e986140e018b342316835dcdab7fffb85eec55c914db3537bd0651
+Section: Tweaks
+Description: Fixes Google on iOS 6
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.googlefix
+Name: GoogleFix
+
+Package: com.victorlobe.googlefix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.googlefix_1.0.2_iphoneos-arm.deb
+Size: 6430
+MD5sum: 23d42e5618a5098f4699927ec93ddaae
+SHA1: a82f9e610b1a4ad2195c41454ec420aa0a741ac5
+SHA256: 68589f99f93f4e27a1e07534f0e79754c953a488e47d332f662f3c3fcdd78984
+Section: Tweaks
+Description: Fixes Google on iOS 6
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.googlefix
+Name: GoogleFix
+
+Package: com.victorlobe.icloudmailfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Victor <victor@victorlobe.me>
+Installed-Size: 1416
+Depends: mobilesubstrate, PreferenceLoader, firmware (>= 6.0)
+Filename: ./debs/com.victorlobe.icloudmailfix_1.0.0_iphoneos-arm.deb
+Size: 481542
+MD5sum: 086e2b173a6fef10b80fe2465bd8f928
+SHA1: db175ee738b72910b9e3cd9c3aa813a3229c7c58
+SHA256: f8de7d2f2faedd79078ea39f1c947a207df9107a44ec59fbe4d655cd9b84767e
+Section: Tweaks
+Priority: optional
+Description: Restores full iCloud Mail functionality on iOS 6 and later devices. This tweak fixes the compatibility issue with modern iCloud servers by creating a local proxy that handles the connections. See Settings > iCloud Mail Fix for setup tutorial.
+Author: Victor <victor@victorlobe.me>
+Compatibility: iOS 6.0+
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.icloudmailfix
+Name: iCloudMailFix
+
+Package: com.victorlobe.icloudmailfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Victor <victor@victorlobe.me>
+Installed-Size: 1512
+Depends: mobilesubstrate, PreferenceLoader, firmware (>= 6.0)
+Filename: ./debs/com.victorlobe.icloudmailfix_1.0.1_iphoneos-arm.deb
+Size: 482382
+MD5sum: 2e39ced782efd8fba13dd0da9a6fdccf
+SHA1: 648eacdced655853b8dd02ec7a33883882dde1d8
+SHA256: 882e85b3cf2e9d9ccc2581de108de12eb343133fc897b62a812075b27eaad5c1
+Section: Tweaks
+Priority: optional
+Description: Restores full iCloud Mail functionality on iOS 6 and later devices. This tweak fixes the compatibility issue with modern iCloud servers by creating a local proxy that handles the connections. See Settings > iCloud Mail Fix for setup instructions.
+Author: Victor <victor@victorlobe.me>
+Compatibility: iOS 6.0+
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.icloudmailfix
+Name: iCloudMailFix
+
+Package: com.victorlobe.icloudmailfix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Victor <victor.lobe@me.com>
+Installed-Size: 1512
+Depends: mobilesubstrate, PreferenceLoader, firmware (>= 6.0)
+Filename: ./debs/com.victorlobe.icloudmailfix_1.0.2_iphoneos-arm.deb
+Size: 482404
+MD5sum: cd36513a81d2573ff0e23787c159da46
+SHA1: 573190b52f978f5b3123773495b86b12890bf626
+SHA256: 5c98cd32636cc82d23eceb884f84b7b7f465795fe6c1a960c7bd2cb38b488fde
+Section: Tweaks
+Priority: optional
+Description: Restores full iCloud Mail functionality on iOS 6 and later devices. This tweak fixes the compatibility issue with modern iCloud servers by creating a local proxy that handles the connections. See Settings > iCloud Mail Fix for setup instructions.
+Author: Victor <victor.lobe@me.com>
+Compatibility: iOS 6.0+
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.icloudmailfix
+Name: iCloudMailFix
+
+Package: com.victorlobe.pinterestfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.pinterestfix_1.0.0_iphoneos-arm.deb
+Size: 6846
+MD5sum: 3e450014f22b5a900844627c75be2776
+SHA1: bfcb3fca142fdfae830ad4aa6508aa0d607db0b2
+SHA256: e5e2e7d656512f5e80653f26832fa310e778514dd415ecc1389226277a69a9ff
+Section: Tweaks
+Description: Fixes Pinterest on iOS 5+
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.pinterestfix
+Name: PinterestFix
+
+Package: com.victorlobe.pinterestfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Victor <contact@victorlobe.me>
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.pinterestfix_1.0.1_iphoneos-arm.deb
+Size: 8484
+MD5sum: 4e52d20af81eba140f7518d10b618a42
+SHA1: 724f8da0b61cbb73bb8bebee707a90cee8177049
+SHA256: 0ce01a3cdbf05607b35db5b3084c7ade628921a1dd63877b6884604d2602e26e
+Section: Tweaks
+Description: Fixes Pinterest on iOS 5+ Needs Pinterest version 2.6+
+Author: Victor <contact@victorlobe.me>
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.pinterestfix
+Name: PinterestFix
+
+Package: com.victorlobe.pinterestfix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Victor <contact@victorlobe.me>
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.pinterestfix_1.0.2_iphoneos-arm.deb
+Size: 9430
+MD5sum: 8a51aecaa28cc07aad85c715d6121614
+SHA1: eee212756298c3926672b651e33f618342272565
+SHA256: 79b3f34296dcf978884501660265d4741d396e0b52e7616533381a6b5ae544b7
+Section: Tweaks
+Description: Fixes Pinterest on iOS 5+ Needs Pinterest version 2.6+
+Author: Victor <contact@victorlobe.me>
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.pinterestfix
+Name: PinterestFix
+
+Package: com.victorlobe.safarioldreddit
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 44
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.safarioldreddit_1.0.0-1+debug_iphoneos-arm.deb
+Size: 4546
+MD5sum: b1979b1a3678cfef20bdcbc28cb86ed6
+SHA1: b38cf7580954166143f7014ffed3a533b7173539
+SHA256: 01268bc26b2d876ba339b5272d86645ece512bd17c9186f314f6aac3e12e0777
+Section: Tweaks
+Description: Redirects all Reddit URLs to old.reddit.com. Currently works on iOS 6.1 upwards. Later versions will support older iOS Versions since
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.safarioldreddit
+Name: SafariOldReddit
+
+Package: com.victorlobe.safarioldreddit
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 44
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.safarioldreddit_1.0.0-2+debug_iphoneos-arm.deb
+Size: 4558
+MD5sum: fa4b5b5a97ec73d78432ff7807935c71
+SHA1: 70116d5062996e65bead252fd97164fa24e36cbb
+SHA256: 32d052dc2bef4e8ec13054aeae43d41e43cc55083c00d075e2fac396d9884536
+Section: Tweaks
+Description: Redirects all Reddit URLs to old.reddit.com. Currently works on iOS 6.1 upwards. Later versions will support older iOS Versions since I need to find the SDKs.
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.safarioldreddit
+Name: SafariOldReddit
+
+Package: com.victorlobe.safarioldreddit
+Version: 1.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 44
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.safarioldreddit_1.0.1-1+debug_iphoneos-arm.deb
+Size: 4560
+MD5sum: 3f584ff2a3ba92c7e893ff589b09f68f
+SHA1: 6c6c1a66511e68d278ffd74190bdb33947f24615
+SHA256: a7d68bbead8eb94a3c1ad35c12b4614ebba7332678bec29719c36ef34eb83c81
+Section: Tweaks
+Description: Redirects all Reddit URLs to old.reddit.com. Currently works on iOS 6.0 and upwards. Later versions will support older iOS Versions since I need to find the SDKs.
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.safarioldreddit
+Name: SafariOldReddit
 
 Package: com.vlinder.hdnl
 Version: 1.1
@@ -20154,6 +20570,22 @@ Section: Tweaks
 Description: An alarm tweak that allows you to choose snooze intervals!
 Author: James Emrich (EvilPenguin)
 Name: Alarmy
+
+Package: installous.translations
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Depends: com.hackulo.us.installous
+Filename: ./debs/translations-1.1.deb
+Size: 17324900
+MD5sum: c82eea469105f4e7ca4c39b80ccb01cf
+SHA1: 97dbc7017420c7cf3f90f36e7a865e09dd6c069a
+SHA256: 7e6baff283179260a4e02d758efa41a181a54e33b808101ca606628367baf594
+Section: Development
+Priority: standard
+Description: Installous foreign translations
+Author: Dissident <apps@hackulo.us>
+Name: Installous Translations
 
 Package: io.chillboi20.coolbooterhelper
 Version: 1.0.0b5
@@ -20601,6 +21033,22 @@ Description: local UIKit-based Terminal emulator
 Author: Allen Porter <allen.porter@gmail.com>
 Depiction: http://cydia.saurik.com/info/mobileterminal/
 Name: MobileTerminal
+
+Package: moe.yzu.veterishelper
+Version: 1.0.0-53+debug
+Architecture: iphoneos-arm
+Maintainer: Stella Diaz (electimon)
+Installed-Size: 124
+Depends: mobilesubstrate
+Filename: ./debs/moe.yzu.veterishelper_1.0.0-53+debug_iphoneos-arm.deb
+Size: 7224
+MD5sum: f92062d4ddd14532c7d39a6aba32a751
+SHA1: 98ecb6684ebcf21993dd180851e20030dea68726
+SHA256: 9af54f52b9f46db8187cafc76851fa546ff72c03e1365e44ce07ff9b84bc4551
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Stella Diaz (electimon
+Name: Veteris Helper
 
 Package: net.angelxwind.airspeaker
 Version: 1.4.5
@@ -22310,6 +22758,40 @@ Author: Jyvee
 Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
 Name: iTunesStoreX7
 
+Package: org.jyvee8games.itunesfix
+Version: 0.2.5-5+debug
+Architecture: iphoneos-arm
+Maintainer: Jyvee
+Installed-Size: 6920
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Filename: ./debs/org.jyvee8games.itunesfix_0.2.5-5+debug.deb
+Size: 938740
+MD5sum: 96ead52bac72d58f150d43f412ed84a6
+SHA1: a0f0b40422ea3f51336e7bfb30a7add6f6ea2d2b
+SHA256: d770313a772ac9cd09d1c70f7c531501fea57aa83231ff6a48fe55d98de7d64d
+Section: Tweaks
+Description: A fix for the iOS 7 AppStore! Original Tweak & Method by bag.xml & Requis!
+Author: Jyvee
+Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
+Name: iTunesStoreX7
+
+Package: org.mtmdev.YewTube
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync
+Filename: ./debs/YewTube-v1.0.1.deb
+Size: 180100
+MD5sum: 91d09c8e3134fdbfb3a9c948243e78e2
+SHA1: 042c068488d86338863dfb41ad992eb201203755
+SHA256: 7e96fdd3d2ef88642ae779fbe923bca394eb3d9f6ed0546e266b589647dfc58e
+Section: Internet
+Homepage: http://mtmdev.org
+Description: A YouTube client made in Objective-C utilizing the power of Invidious.
+Author: Electimon <electimon@gmail.com>
+Icon: http://2pwn.tk/dev/icons/YewTube.png
+Name: YewTube
+
 Package: org.pilin.cavestory
 Version: v0.8
 Architecture: iphoneos-arm
@@ -23688,6 +24170,24 @@ Architecture: iphoneos-arm
 Maintainer: Genius Blog <admin@hackulo.us>
 Depends: com.hackulo.us.sourcegui, coreutils, openssl, curl, sed
 Filename: ./debs/security.deb
+Size: 2784
+MD5sum: df221ff7bb2f4baf1503b9693b1ca298
+SHA1: 1f588f64db3c9e2599350f7a25856ed03eee22a0
+SHA256: df6a4bd2e8a06608de72d6b0a4ce7a620def7b0104c361123f878b1031528d90
+Section: Hackulo.us
+Priority: standard
+Description: Protects you and your device from malicious websites
+Author: Kyek <hackulous_security@hackulo.us>
+Depiction: http://hackulo.us/depict/security
+Name: Hackulous Security
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.security
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <admin@hackulo.us>
+Depends: com.hackulo.us.sourcegui, coreutils, openssl, curl, sed
+Filename: ./debs/us.hackulo.security_1.2.1_iphoneos-arm.deb
 Size: 2784
 MD5sum: df221ff7bb2f4baf1503b9693b1ca298
 SHA1: 1f588f64db3c9e2599350f7a25856ed03eee22a0
