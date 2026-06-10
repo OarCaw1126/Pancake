@@ -15149,199 +15149,6 @@ Depiction: http://hackulo.us/depict/sourcegui
 Name: Source GUI
 Sponsor: Hackulo.us <http://hackulo.us>
 
-Package: com.hackyouriphone.appcake
-Version: 7.0.3
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Depends: com.hackyouriphone.appsyncunified
-Filename: ./debs/com.hackyouriphone.appcake_7.0.3_iphoneos-arm.deb
-Size: 8110888
-MD5sum: dd9d1c1be4d2b5da9a321ba6dbbb8fa5
-SHA1: f8447041b1586fbc49913d008738d72e6c58fa54
-SHA256: 1faa493dbc27e63c097d414394e360ce5fbb37fbb6001cd5775faa9a5f6b54c6
-Section: Tweaks (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=appcake
-Description: Resign Apps via AppCake
-Author: fhisismanpreets <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=appcake
-Name: AppCake
-Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=appcake
-
-Package: com.hackyouriphone.appcake2
-Version: 5.6.0.2
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Pre-Depends: firmware (>= 7.0)
-Depends: mobilesubstrate
-Filename: ./debs/com.hackyouriphone.appcake2_5.6.0.2_iphoneos-arm.deb
-Size: 7209448
-MD5sum: f60adc4ea76df77d0a30b81f4edebfdf
-SHA1: 83ebf2b03550b1a4f36a2d0f4636180b63bd3897
-SHA256: 1d1f974227f079f1a10b3127d335d9b6492044f6d25cbf8d519d058588c4fa33
-Section: Applications (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=appcake2
-Description: The new AppCake 5.6.0.1! Introducing Direct Download/Install!  Require AppSync to be installed ***
-Author: Mickael liang <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=appcake2
-Name: AppCake
-
-Package: com.hackyouriphone.appcake6
-Version: 6.1.3
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Pre-Depends: firmware (>= 9.0)
-Depends: appsync
-Filename: ./debs/com.hackyouriphone.appcake6_6.1.3_iphoneos-arm.deb
-Size: 11660132
-MD5sum: f5e182f9f0bc5e806842b0e985f4a728
-SHA1: 33192a24abb5099fe9f35d953faf0cf42b30bd07
-SHA256: 2c0d8534fcc09752b4aa118f3f7e32f455c1df5590994b1cdfd9a5426af8a27e
-Section: Applications (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=appcake6
-Description: The new AppCake 6! For iOS 11 & 12 Jailbreak.
-Author: hotsjf <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=appcake6
-Name: AppCake
-Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=appcake6
-
-Package: com.hackyouriphone.cloaky
-Version: 5.1
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Depends: mobilesubstrate (>= 0.9.5000), applist (>= 1.5.6), firmware (>= 4.0), preferenceloader (>= 2.2.2)
-Filename: ./debs/com.hackyouriphone.cloaky_5.1_iphoneos-arm.deb
-Size: 112124
-MD5sum: f6a6b9ec1d8052c779dc27dce216dba1
-SHA1: 3d639f2b2d4dc8d619c4905ece3af6f59275d1f2
-SHA256: 1582fae253870778c1b7426ec30523cfc41fe6dd4724ab7ef0cdee4bf4a7fb01
-Section: Tweaks (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=cloaky
-Description: Cloak annoyance items!
-Author: r_plus <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=cloaky
-Name: Cloaky
-
-Package: com.hackyouriphone.emoji10
-Version: 1.0-2
-Architecture: iphoneos-arm
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Filename: ./debs/com.hackyouriphone.emoji10_1.0-2_iphoneos-arm.deb
-Size: 31005816
-MD5sum: e6afd2cab36f98bc38c1523e7895181b
-SHA1: b02d4f1a2b3d85e16cbb5c7b64503a0f3035e95c
-SHA256: 2c344ec92d732c82a521588fd7126eb53c5df2550157547ed2d9ce0ab8a15dc6
-Section: Tweaks (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=emoji10
-Description: Ported from iOS 10 beta 4
-Author: pw5a29 <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=emoji10
-Name: iOS 10 Emojis
-
-Package: com.hackyouriphone.ldid-plutil
-Version: 611
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common (>= 1.2), firmware (>= 10.0)
-Replaces: ldone
-Filename: ./debs/com.hackyouriphone.ldid-plutil_611_iphoneos-arm.deb
-Size: 72016
-MD5sum: 20cd7c091738276d448db2fd88a2ad9c
-SHA1: d638b7dc482cdfa66204b85de2500ec684fed24c
-SHA256: 30097c760b74aaa3024dfcd185c60e1d8bbf7445d218aa13de2fcc3c1f2af91d
-Section: Tweaks (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ldid-plutil
-Description: ldid & plutil
-Author: KIIIMO <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ldid-plutil
-Name: ldid & plutil
-
-Package: com.hackyouriphone.notifications10
-Version: 1.0-8
-Architecture: iphoneos-arm
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: me.thomasfinch.watchnotifications, com.tweakwiz.notificationcards
-Filename: ./debs/com.hackyouriphone.notifications10_1.0-8_iphoneos-arm.deb
-Size: 60360
-MD5sum: 073769764745318d915f3ebb54f3dba8
-SHA1: 5398616076438a889403b0f27833a8bb69c8bd88
-SHA256: 140813282fe40231c9376f227dbba452fd25167dfe27351c81e2d6ad40b4b2e3
-Section: Tweaks (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=notifications10
-Description: Notification in the style of iOS 10
-Author: Buzunser <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=notifications10
-Name: Notifications10
-
-Package: com.hackyouriphone.polus
-Version: 2.2.1
-Architecture: iphoneos-arm
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, libactivator, com.a3tweaks.flipswitch
-Filename: ./debs/com.hackyouriphone.polus_2.2.1_iphoneos-arm.deb
-Size: 1523588
-MD5sum: 8ae6c13e301743b9ded884091bea8cd8
-SHA1: dea806414f40067849392c61bc2e69231b4ee21e
-SHA256: 0b61c78937c01d7002ce42d541de01442b69ed6b2efa25aaf026244600fc40da
-Section: Tweaks (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=polus
-Description: Control Center launcher for apps & actions
-Author: A3tweaks <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=polus
-Name: Polus
-
-Package: com.hackyouriphone.vshare
-Version: 2.2.0
-Architecture: iphoneos-arm
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Filename: ./debs/com.hackyouriphone.vshare_2.2.0_iphoneos-arm.deb
-Size: 9082520
-MD5sum: fa462c99fcb2625c1508d538abdc378e
-SHA1: 3386b3a01eb110881955412578fcc6e43d8bad15
-SHA256: 78bd3b0e150d917208626b7f69f85a1d23f0bb539f66f015283a329dd36f0fc2
-Section: Applications (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=vshare
-Description: vShare is an APP management tool like App Store. You can easily to install, delete and update apps.
-Author: AppVV.com <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=vshare
-Name: vshare
-
-Package: com.hackyouriphone.xen
-Version: 0.3.6k
-Architecture: iphoneos-arm
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, applist, com.hackyouriphone.libgithubissues, com.matchstic.infostats2
-Conflicts: com.brycepauken.aeurials, com.cpdigitaldarkroom.cream (<= 1.2.4), com.cpdigitaldarkroom.cleo (<= 1.0.4)
-Filename: ./debs/com.hackyouriphone.xen_0.3.6k_iphoneos-arm.deb
-Size: 2126564
-MD5sum: d8d6371375816ec101ffff8967892a7f
-SHA1: d80a8d31804bd15466af0ba6b9954f61f48930db
-SHA256: 175f37f7d66d0c587a05c18e7a12e60184e96576709e473e09d256558f760b92
-Section: Tweaks (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=xen
-Description: Supercharge your lockscreen
-Author: Matt Clarke <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=xen
-Name: Xen Lockscreen
-
-Package: com.hackyouriphone.zeusmos
-Version: 3.3.5
-Architecture: iphoneos-arm
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Pre-Depends: firmware (>= 6.0)
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist (>= 1.5.9), com.dba-tech.lockpages (>= 1.4.0)
-Filename: ./debs/com.hackyouriphone.zeusmos_3.3.5_iphoneos-arm.deb
-Size: 7010836
-MD5sum: eab454d05b4ed562db6a0fb2727065e1
-SHA1: aa9fab220f770aea1274b421af5320b6b2a2d06c
-SHA256: 5e85dc0a8eba9a7cc7cbe9ab7c8e3a68554efa987252c5746ec23d3abdb8ac2b
-Section: Tweaks (HYI)
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=zeusmos
-Description: An intuitive utility that codesigns iOS apps right on your device with or without a jailbreak!
-Author: Unknow <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=zeusmos
-Name: Zeusmos
-
 Package: com.hello.hdnl
 Version: 1.0
 Architecture: iphoneos-arm
@@ -18697,6 +18504,20 @@ Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelo
 Name: Solid Glass 2
 Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.solidglass.json
 Tags: compatible_min::ios1.0, compatible_max::ios17.4
+
+Package: com.ivintagelover.solidglass27rl
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iVintageLover
+Filename: ./debs/SolidGlass27-Rootless.deb
+Size: 33168436
+MD5sum: 3f3d66edc42ea7e74ae5e085ba01b3ad
+SHA1: ba8feca8dea0fa5d923127bdae2a69a2c10ad609
+SHA256: 4e72c79f76124310dd2130d047330fb3dbf6ad3d9c46c28fd88fa372e77830a1
+Section: Themes
+Description: iOS 27 icons for older devices.
+Author: iVintageLover
+Name: Solid Glass 27
 
 Package: com.ixmoe.1pwn.Veteris
 Version: 2.1.1
